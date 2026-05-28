@@ -18,9 +18,10 @@ from stocks import MARKET_CONFIG, COMPANY_NAMES
 logger = logging.getLogger(__name__)
 
 BATCH_SIZE = 25       # tickers per yf.download call
-BATCH_DELAY = 2.0     # seconds between batches
-INFO_DELAY = 0.8      # seconds between .info calls
+BATCH_DELAY = 2.5     # seconds between batches
+INFO_DELAY = 1.5      # seconds between .info calls (increased for cloud servers)
 MAX_INFO_CALLS = 40   # fetch fundamentals for top N candidates only
+INFO_RETRIES = 3      # retry attempts for fundamentals fetch
 
 
 # ── Technical Indicators ───────────────────────────────────────────────────────
@@ -216,22 +217,33 @@ def fetch_fast_info(ticker: str) -> dict:
 
 
 def fetch_fundamentals(ticker: str) -> dict:
-    """Fetch P/E, P/B, name, sector from yfinance info. Slow — use sparingly.
-    Always seeds name from COMPANY_NAMES lookup first so HK/SG names always show."""
-    # Start with our hardcoded lookup — guaranteed to show the right name
+    """Fetch P/E, P/B, name, sector from yfinance info with retry + backoff.
+    Always seeds name from COMPANY_NAMES lookup so HK/SG names always show."""
     base_name = COMPANY_NAMES.get(ticker, "")
-    try:
-        info = yf.Ticker(ticker).info
-        api_name = info.get("longName") or info.get("shortName") or ""
-        return {
-            "name": base_name or api_name or ticker,
-            "sector": info.get("sector", ""),
-            "pe": _safe(info.get("trailingPE") or info.get("forwardPE")),
-            "pb": _safe(info.get("priceToBook")),
-            "roe": _safe(info.get("returnOnEquity")),
-        }
-    except Exception:
-        return {"name": ticker, "sector": ""}
+    base = {"name": base_name or ticker, "sector": ""}
+
+    for attempt in range(INFO_RETRIES):
+        try:
+            info = yf.Ticker(ticker).info
+            if not info:
+                raise ValueError("Empty info response")
+            api_name = info.get("longName") or info.get("shortName") or ""
+            pe_raw = info.get("trailingPE") or info.get("forwardPE")
+            return {
+                "name": base_name or api_name or ticker,
+                "sector": info.get("sector", ""),
+                "pe": _safe(pe_raw),
+                "pb": _safe(info.get("priceToBook")),
+                "roe": _safe(info.get("returnOnEquity")),
+            }
+        except Exception as e:
+            wait = 2 ** attempt * 2   # 2s, 4s, 8s backoff
+            logger.warning(f"fundamentals attempt {attempt+1} failed for {ticker}: {e} — retrying in {wait}s")
+            if attempt < INFO_RETRIES - 1:
+                time.sleep(wait)
+
+    logger.warning(f"All fundamentals attempts failed for {ticker}, using base only")
+    return base
 
 
 # ── Main Screener ──────────────────────────────────────────────────────────────
