@@ -270,20 +270,35 @@ def get_persistence_count(ticker: str, market: str, depth: int = 3) -> int:
 # Trade plan
 # ══════════════════════════════════════════════════════════════════════════════
 
-def build_trade_plan(price: float, atr_pct: float, currency: str) -> dict:
-    """Compute entry / stop / target / R:R / suggested position size."""
+def build_trade_plan(price: float, atr_pct: float, currency: str, regime_label: str = "neutral") -> dict:
+    """
+    Compute entry / stop / target / R:R / suggested position size.
+    Regime-aware: in risk-off, tighten stops and lower target (capital preservation mode).
+    """
     if not price or pd.isna(price) or not atr_pct or pd.isna(atr_pct):
         return {}
+
+    # ── Regime-adaptive risk params ───────────────────────────────────────────
+    if regime_label == "risk_off":
+        stop_mult, target_pct = 1.0, 2.0      # tighter stop, smaller target — get out fast
+        risk_pct = PORTFOLIO_RISK_PCT * 0.5   # halve position risk in bad tape
+    elif regime_label == "risk_on":
+        stop_mult, target_pct = 1.3, 2.5      # let it breathe a bit in good tape
+        risk_pct = PORTFOLIO_RISK_PCT
+    else:  # neutral
+        stop_mult, target_pct = ATR_STOP_MULT, TARGET_PCT
+        risk_pct = PORTFOLIO_RISK_PCT
+
     atr_dollar = price * atr_pct / 100
-    stop_dist = atr_dollar * ATR_STOP_MULT
+    stop_dist = atr_dollar * stop_mult
     stop = round(price - stop_dist, 4)
-    target = round(price * (1 + TARGET_PCT / 100), 4)
+    target = round(price * (1 + target_pct / 100), 4)
     target_dist = target - price
     rr = round(target_dist / stop_dist, 2) if stop_dist > 0 else 0.0
 
     fx_to_usd = {"HKD": 7.8, "SGD": 1.35}.get(currency, 1.0)
     stop_dist_usd = stop_dist / fx_to_usd
-    risk_budget_usd = PORTFOLIO_USD * PORTFOLIO_RISK_PCT / 100  # $1,000 default
+    risk_budget_usd = PORTFOLIO_USD * risk_pct / 100
     shares = int(risk_budget_usd / stop_dist_usd) if stop_dist_usd > 0 else 0
 
     return {
@@ -295,6 +310,7 @@ def build_trade_plan(price: float, atr_pct: float, currency: str) -> dict:
         "target_pct": round(target_dist / price * 100, 2),
         "suggested_shares": shares,
         "risk_per_trade_usd": int(risk_budget_usd),
+        "regime_adjusted": regime_label,
     }
 
 
@@ -699,7 +715,7 @@ def screen_market(market: str, top_n: int = 10) -> dict:
 
         c["score"] = score_stock(c, regime)
         c["rationale"] = generate_rationale(c)
-        c["trade_plan"] = build_trade_plan(c["price"], c.get("atr_pct"), currency)
+        c["trade_plan"] = build_trade_plan(c["price"], c.get("atr_pct"), currency, regime.get("label", "neutral"))
         time.sleep(INFO_DELAY)
 
     # Remaining: skip live fundamentals (rate-limit friendly), still score
@@ -713,7 +729,7 @@ def screen_market(market: str, top_n: int = 10) -> dict:
         c["earnings_blackout"] = is_earnings_blackout(c.get("next_earnings"))
         c["score"] = score_stock(c, regime)
         c["rationale"] = generate_rationale(c)
-        c["trade_plan"] = build_trade_plan(c["price"], c.get("atr_pct"), currency)
+        c["trade_plan"] = build_trade_plan(c["price"], c.get("atr_pct"), currency, regime.get("label", "neutral"))
 
     final = [c for c in enriched if not c.get("_skip")]
     final.sort(key=lambda x: x["score"], reverse=True)
@@ -735,9 +751,14 @@ def screen_market(market: str, top_n: int = 10) -> dict:
         rr = tp.get("rr", 0) or 0
         blackout = c.get("earnings_blackout", False)
 
+        # In risk-off, only the strongest setups earn a SWING BUY (capital preservation)
+        regime_label = regime.get("label", "neutral")
+        buy_score_threshold = 70 if regime_label == "risk_off" else 55
+        buy_rr_threshold    = 1.2 if regime_label == "risk_off" else MIN_RR
+
         if blackout:
             signal = "AVOID"
-        elif score >= 55 and rr >= MIN_RR:
+        elif score >= buy_score_threshold and rr >= buy_rr_threshold:
             signal = "SWING BUY"
         elif score >= 35:
             signal = "WATCH"
