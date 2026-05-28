@@ -13,7 +13,7 @@ import pandas as pd
 import yfinance as yf
 import pytz
 
-from stocks import MARKET_CONFIG
+from stocks import MARKET_CONFIG, COMPANY_NAMES
 
 logger = logging.getLogger(__name__)
 
@@ -216,11 +216,15 @@ def fetch_fast_info(ticker: str) -> dict:
 
 
 def fetch_fundamentals(ticker: str) -> dict:
-    """Fetch P/E, P/B, name, sector from yfinance info. Slow — use sparingly."""
+    """Fetch P/E, P/B, name, sector from yfinance info. Slow — use sparingly.
+    Always seeds name from COMPANY_NAMES lookup first so HK/SG names always show."""
+    # Start with our hardcoded lookup — guaranteed to show the right name
+    base_name = COMPANY_NAMES.get(ticker, "")
     try:
         info = yf.Ticker(ticker).info
+        api_name = info.get("longName") or info.get("shortName") or ""
         return {
-            "name": info.get("longName") or info.get("shortName") or ticker,
+            "name": base_name or api_name or ticker,
             "sector": info.get("sector", ""),
             "pe": _safe(info.get("trailingPE") or info.get("forwardPE")),
             "pb": _safe(info.get("priceToBook")),
@@ -266,6 +270,7 @@ def screen_market(market: str, top_n: int = 10) -> list:
 
             candidates.append({
                 "ticker": ticker,
+                "name": COMPANY_NAMES.get(ticker, ""),  # seed name immediately
                 "price": current_price,
                 "day_change_pct": day_change_pct,
                 "rsi": rsi,
@@ -323,7 +328,7 @@ def screen_market(market: str, top_n: int = 10) -> list:
 
     # Score remaining without fundamentals
     for c in enriched[25:]:
-        c.setdefault("name", c["ticker"])
+        c.setdefault("name", COMPANY_NAMES.get(c["ticker"], "") or c["ticker"])
         c.setdefault("sector", "")
         c["score"] = score_stock(c)
         c["rationale"] = generate_rationale(c)
