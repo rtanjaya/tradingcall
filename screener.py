@@ -12,6 +12,7 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 import pytz
+import requests
 
 from stocks import MARKET_CONFIG, COMPANY_NAMES
 
@@ -216,33 +217,73 @@ def fetch_fast_info(ticker: str) -> dict:
         return {}
 
 
+_YF_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://finance.yahoo.com",
+}
+
 def fetch_fundamentals(ticker: str) -> dict:
-    """Fetch P/E, P/B, name, sector from yfinance info with retry + backoff.
-    Always seeds name from COMPANY_NAMES lookup so HK/SG names always show."""
+    """Fetch P/E, P/B, name, sector — tries direct Yahoo v8 API first (faster,
+    less rate-limited on cloud), falls back to yfinance .info with retry."""
     base_name = COMPANY_NAMES.get(ticker, "")
     base = {"name": base_name or ticker, "sector": ""}
 
+    # ── Attempt 1: direct Yahoo Finance quoteSummary API ──────────────────────
     for attempt in range(INFO_RETRIES):
         try:
-            info = yf.Ticker(ticker).info
-            if not info:
-                raise ValueError("Empty info response")
-            api_name = info.get("longName") or info.get("shortName") or ""
-            pe_raw = info.get("trailingPE") or info.get("forwardPE")
+            url = (
+                f"https://query1.finance.yahoo.com/v8/finance/quoteSummary/{ticker}"
+                f"?modules=defaultKeyStatistics,summaryDetail,assetProfile&corsDomain=finance.yahoo.com"
+            )
+            r = requests.get(url, headers=_YF_HEADERS, timeout=12)
+            if r.status_code == 429:
+                time.sleep(3 * (attempt + 1))
+                continue
+            r.raise_for_status()
+            body = r.json().get("quoteSummary", {}).get("result", [])
+            if not body:
+                raise ValueError("Empty quoteSummary result")
+            d = body[0]
+            ks = d.get("defaultKeyStatistics", {})
+            sd = d.get("summaryDetail", {})
+            ap = d.get("assetProfile", {})
+            pe = _safe(sd.get("trailingPE", {}).get("raw") or ks.get("forwardPE", {}).get("raw"))
+            pb = _safe(ks.get("priceToBook", {}).get("raw"))
+            roe = _safe(ks.get("returnOnEquity", {}).get("raw"))
+            sector = ap.get("sector", "")
             return {
-                "name": base_name or api_name or ticker,
-                "sector": info.get("sector", ""),
-                "pe": _safe(pe_raw),
-                "pb": _safe(info.get("priceToBook")),
-                "roe": _safe(info.get("returnOnEquity")),
+                "name": base_name or ticker,
+                "sector": sector,
+                "pe": pe,
+                "pb": pb,
+                "roe": roe,
             }
         except Exception as e:
-            wait = 2 ** attempt * 2   # 2s, 4s, 8s backoff
-            logger.warning(f"fundamentals attempt {attempt+1} failed for {ticker}: {e} — retrying in {wait}s")
+            wait = 2 * (attempt + 1)
+            logger.warning(f"Direct API attempt {attempt+1} failed for {ticker}: {e} — wait {wait}s")
             if attempt < INFO_RETRIES - 1:
                 time.sleep(wait)
 
-    logger.warning(f"All fundamentals attempts failed for {ticker}, using base only")
+    # ── Attempt 2: fall back to yfinance .info ────────────────────────────────
+    for attempt in range(2):
+        try:
+            info = yf.Ticker(ticker).info
+            if info:
+                pe_raw = info.get("trailingPE") or info.get("forwardPE")
+                return {
+                    "name": base_name or info.get("longName") or info.get("shortName") or ticker,
+                    "sector": info.get("sector", ""),
+                    "pe": _safe(pe_raw),
+                    "pb": _safe(info.get("priceToBook")),
+                    "roe": _safe(info.get("returnOnEquity")),
+                }
+        except Exception as e:
+            logger.warning(f"yfinance .info fallback attempt {attempt+1} failed for {ticker}: {e}")
+            time.sleep(3)
+
+    logger.warning(f"All fundamentals attempts failed for {ticker}")
     return base
 
 
