@@ -1,0 +1,4220 @@
+{
+  "0001.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 15.76,
+    "next_earnings": "2026-03-19"
+  },
+  "0002.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 3.97,
+    "next_earnings": null
+  },
+  "0003.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 4.07,
+    "next_earnings": "2026-03-20"
+  },
+  "0005.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 1.01,
+    "next_earnings": "2026-08-04"
+  },
+  "0011.HK": {
+    "f_components": {},
+    "f_score": null,
+    "fcf_yield": null,
+    "next_earnings": null
+  },
+  "0012.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 8.2,
+    "next_earnings": "2026-03-23"
+  },
+  "0016.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 0,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 1,
+    "fcf_yield": 5.27,
+    "next_earnings": null
+  },
+  "0017.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 0,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 58.38,
+    "next_earnings": null
+  },
+  "0027.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 7.93,
+    "next_earnings": "2026-08-11"
+  },
+  "0066.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": -3.83,
+    "next_earnings": "2026-03-12"
+  },
+  "0175.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 14.43,
+    "next_earnings": "2026-03-18"
+  },
+  "0267.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 0,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": -24.58,
+    "next_earnings": "2026-03-27"
+  },
+  "0288.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 1.7,
+    "next_earnings": "2026-04-28"
+  },
+  "0386.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 5.5,
+    "next_earnings": "2026-04-28"
+  },
+  "0388.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 4.77,
+    "next_earnings": "2026-04-29"
+  },
+  "0688.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 9.96,
+    "next_earnings": "2026-03-31"
+  },
+  "0700.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 4.96,
+    "next_earnings": "2026-08-12"
+  },
+  "0762.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 9.66,
+    "next_earnings": "2026-04-21"
+  },
+  "0823.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 0,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 8.54,
+    "next_earnings": "2026-05-28"
+  },
+  "0857.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 6.07,
+    "next_earnings": "2026-04-29"
+  },
+  "0883.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 7.84,
+    "next_earnings": "2026-03-26"
+  },
+  "0939.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 3,
+    "fcf_yield": 93.66,
+    "next_earnings": "2026-04-29"
+  },
+  "0941.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 3,
+    "fcf_yield": 4.14,
+    "next_earnings": "2026-07-21"
+  },
+  "0960.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 42.52,
+    "next_earnings": "2026-03-27"
+  },
+  "1024.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 6.05,
+    "next_earnings": "2026-08-20"
+  },
+  "1038.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 1.25,
+    "next_earnings": "2026-03-18"
+  },
+  "1044.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 7.86,
+    "next_earnings": "2026-03-17"
+  },
+  "1109.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 15.41,
+    "next_earnings": "2026-03-30"
+  },
+  "1113.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 7,
+    "fcf_yield": 10.05,
+    "next_earnings": "2026-03-19"
+  },
+  "1211.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": -11.86,
+    "next_earnings": "2026-04-28"
+  },
+  "1299.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 0.79,
+    "next_earnings": "2026-03-18"
+  },
+  "1398.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 78.86,
+    "next_earnings": "2026-03-27"
+  },
+  "1810.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 5,
+    "fcf_yield": 2.9,
+    "next_earnings": "2026-08-25"
+  },
+  "2020.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 8.86,
+    "next_earnings": "2026-03-25"
+  },
+  "2318.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 60.61,
+    "next_earnings": "2026-04-28"
+  },
+  "2331.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 7.86,
+    "next_earnings": "2026-03-19"
+  },
+  "2382.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 3.98,
+    "next_earnings": "2026-03-30"
+  },
+  "2628.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 56.6,
+    "next_earnings": "2026-04-29"
+  },
+  "3690.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 0,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 0,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 2,
+    "fcf_yield": -5.98,
+    "next_earnings": "2026-06-01"
+  },
+  "3988.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 3,
+    "fcf_yield": 46.02,
+    "next_earnings": "2026-04-29"
+  },
+  "5E2.SI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 0.27,
+    "next_earnings": null
+  },
+  "6098.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 10.16,
+    "next_earnings": "2026-03-27"
+  },
+  "9618.HK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 1.54,
+    "next_earnings": "2026-08-11"
+  },
+  "9888.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 0,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 2,
+    "fcf_yield": -4.81,
+    "next_earnings": "2026-08-19"
+  },
+  "9988.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 3,
+    "fcf_yield": -2.17,
+    "next_earnings": "2026-05-13"
+  },
+  "9999.HK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 7.89,
+    "next_earnings": null
+  },
+  "9CI.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 3.72,
+    "next_earnings": null
+  },
+  "A17U.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 8.92,
+    "next_earnings": "2026-07-30"
+  },
+  "AAPL": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 2.16,
+    "next_earnings": "2026-07-31"
+  },
+  "ABBV": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 8,
+    "fcf_yield": 4.68,
+    "next_earnings": "2026-07-30"
+  },
+  "ABT": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 4.96,
+    "next_earnings": "2026-07-16"
+  },
+  "ADI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 2.11,
+    "next_earnings": "2026-08-19"
+  },
+  "AEP": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 5,
+    "fcf_yield": -2.32,
+    "next_earnings": "2026-07-30"
+  },
+  "AFL": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 3,
+    "fcf_yield": 4.37,
+    "next_earnings": "2026-04-30"
+  },
+  "ALB": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 0,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 3.31,
+    "next_earnings": "2026-07-30"
+  },
+  "ALL": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 5,
+    "fcf_yield": 18.38,
+    "next_earnings": "2026-04-30"
+  },
+  "AMAT": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 1.6,
+    "next_earnings": "2026-08-14"
+  },
+  "AMD": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 0.83,
+    "next_earnings": "2026-08-05"
+  },
+  "AME": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 3.22,
+    "next_earnings": "2026-07-30"
+  },
+  "AMGN": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 4.47,
+    "next_earnings": "2026-08-05"
+  },
+  "AMP": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 20.48,
+    "next_earnings": "2026-07-24"
+  },
+  "AMT": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 4.39,
+    "next_earnings": "2026-07-28"
+  },
+  "AMZN": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 0.26,
+    "next_earnings": "2026-07-31"
+  },
+  "ANSS": {
+    "f_components": {},
+    "f_score": null,
+    "fcf_yield": null,
+    "next_earnings": null
+  },
+  "APD": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 0,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 3,
+    "fcf_yield": -5.92,
+    "next_earnings": "2026-07-30"
+  },
+  "AVGO": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 1.35,
+    "next_earnings": "2026-06-04"
+  },
+  "AXP": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 7.5,
+    "next_earnings": "2026-07-24"
+  },
+  "BA": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": -1.07,
+    "next_earnings": "2026-07-28"
+  },
+  "BAC": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 5,
+    "fcf_yield": 3.48,
+    "next_earnings": "2026-07-14"
+  },
+  "BAX": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 0,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 3.24,
+    "next_earnings": "2026-07-30"
+  },
+  "BBY": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 9.25,
+    "next_earnings": "2026-05-28"
+  },
+  "BDX": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 6.58,
+    "next_earnings": "2026-08-06"
+  },
+  "BKR": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 7,
+    "fcf_yield": 4.05,
+    "next_earnings": "2026-07-22"
+  },
+  "BLK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 2.14,
+    "next_earnings": "2026-07-15"
+  },
+  "BMY": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 9,
+    "fcf_yield": 10.94,
+    "next_earnings": "2026-07-30"
+  },
+  "BN4.SI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 0.76,
+    "next_earnings": "2026-04-23"
+  },
+  "BS6.SI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 17.5,
+    "next_earnings": null
+  },
+  "BSX": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 4.54,
+    "next_earnings": "2026-07-29"
+  },
+  "BUOU.SI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 6.69,
+    "next_earnings": null
+  },
+  "C": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 0,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 3,
+    "fcf_yield": -34.67,
+    "next_earnings": "2026-07-14"
+  },
+  "C09.SI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 0,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 5,
+    "fcf_yield": -31.51,
+    "next_earnings": null
+  },
+  "C38U.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 4.52,
+    "next_earnings": null
+  },
+  "C6L.SI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 7,
+    "fcf_yield": 11.13,
+    "next_earnings": "2026-07-28"
+  },
+  "CAG": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 20.42,
+    "next_earnings": "2026-04-01"
+  },
+  "CAH": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 3.95,
+    "next_earnings": "2026-04-30"
+  },
+  "CARR": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 3.96,
+    "next_earnings": "2026-07-28"
+  },
+  "CAT": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 1.78,
+    "next_earnings": "2026-08-04"
+  },
+  "CB": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 10.31,
+    "next_earnings": "2026-07-29"
+  },
+  "CCI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 7.25,
+    "next_earnings": "2026-07-23"
+  },
+  "CDNS": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 7,
+    "fcf_yield": 1.54,
+    "next_earnings": "2026-07-28"
+  },
+  "CF": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 10.08,
+    "next_earnings": "2026-08-06"
+  },
+  "CFG": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 7.64,
+    "next_earnings": "2026-07-16"
+  },
+  "CI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 11.1,
+    "next_earnings": "2026-07-30"
+  },
+  "CL": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 4.97,
+    "next_earnings": "2026-07-31"
+  },
+  "CNC": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 0,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 14.88,
+    "next_earnings": "2026-07-28"
+  },
+  "COF": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 22.25,
+    "next_earnings": "2026-07-22"
+  },
+  "COP": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 7,
+    "fcf_yield": 5.16,
+    "next_earnings": "2026-08-06"
+  },
+  "COST": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 7,
+    "fcf_yield": 1.76,
+    "next_earnings": "2026-05-29"
+  },
+  "CPB": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 11.53,
+    "next_earnings": "2026-06-08"
+  },
+  "CRM": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 9.92,
+    "next_earnings": "2026-05-28"
+  },
+  "CSCO": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 2.82,
+    "next_earnings": "2026-08-13"
+  },
+  "CSX": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 1.95,
+    "next_earnings": "2026-04-23"
+  },
+  "CTSH": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 7,
+    "fcf_yield": 10.32,
+    "next_earnings": "2026-07-29"
+  },
+  "CVS": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 6.65,
+    "next_earnings": "2026-07-30"
+  },
+  "CVX": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 4.57,
+    "next_earnings": "2026-07-31"
+  },
+  "D": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": -12.32,
+    "next_earnings": "2026-07-30"
+  },
+  "D05.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 5.97,
+    "next_earnings": "2026-04-30"
+  },
+  "DE": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 2.26,
+    "next_earnings": "2026-08-20"
+  },
+  "DELL": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 4.31,
+    "next_earnings": "2026-05-29"
+  },
+  "DLR": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 3.58,
+    "next_earnings": "2026-07-24"
+  },
+  "DUK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": -1.73,
+    "next_earnings": "2026-08-04"
+  },
+  "DVN": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 5.48,
+    "next_earnings": "2026-08-05"
+  },
+  "ECL": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 2.58,
+    "next_earnings": "2026-07-28"
+  },
+  "ELV": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 3.73,
+    "next_earnings": "2026-07-16"
+  },
+  "EMR": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 3.41,
+    "next_earnings": "2026-08-06"
+  },
+  "EOG": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 4.82,
+    "next_earnings": "2026-05-06"
+  },
+  "EQIX": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 5,
+    "fcf_yield": -0.38,
+    "next_earnings": "2026-07-30"
+  },
+  "ES": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": -0.17,
+    "next_earnings": "2026-07-31"
+  },
+  "ETN": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 2.25,
+    "next_earnings": "2026-08-04"
+  },
+  "ETR": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": -5.47,
+    "next_earnings": "2026-07-30"
+  },
+  "EXC": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": -4.81,
+    "next_earnings": "2026-07-30"
+  },
+  "F34.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 6.05,
+    "next_earnings": null
+  },
+  "FCX": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 1.22,
+    "next_earnings": "2026-07-22"
+  },
+  "FDX": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 3.03,
+    "next_earnings": "2026-06-24"
+  },
+  "FITB": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 8.42,
+    "next_earnings": "2026-07-17"
+  },
+  "FMC": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 0,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 0,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 2,
+    "fcf_yield": -10.45,
+    "next_earnings": "2026-07-30"
+  },
+  "FTV": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 5.93,
+    "next_earnings": "2026-07-29"
+  },
+  "G13.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 1.68,
+    "next_earnings": null
+  },
+  "GD": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 4.27,
+    "next_earnings": "2026-07-22"
+  },
+  "GE": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 2.19,
+    "next_earnings": "2026-07-16"
+  },
+  "GILD": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 5.7,
+    "next_earnings": "2026-08-07"
+  },
+  "GIS": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 12.77,
+    "next_earnings": "2026-03-18"
+  },
+  "GOOGL": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 1.56,
+    "next_earnings": "2026-07-24"
+  },
+  "GPS": {
+    "f_components": {},
+    "f_score": null,
+    "fcf_yield": null,
+    "next_earnings": null
+  },
+  "GS": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 0,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 4,
+    "fcf_yield": -16.06,
+    "next_earnings": "2026-07-14"
+  },
+  "H78.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 5,
+    "fcf_yield": 2.57,
+    "next_earnings": "2026-03-05"
+  },
+  "HAL": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 5.05,
+    "next_earnings": "2026-07-21"
+  },
+  "HBAN": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 5,
+    "fcf_yield": 6.82,
+    "next_earnings": "2026-07-23"
+  },
+  "HBI": {
+    "f_components": {},
+    "f_score": null,
+    "fcf_yield": null,
+    "next_earnings": null
+  },
+  "HD": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 3.99,
+    "next_earnings": "2026-08-18"
+  },
+  "HON": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 3.7,
+    "next_earnings": "2026-07-23"
+  },
+  "HPE": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 1.27,
+    "next_earnings": "2026-06-02"
+  },
+  "HPQ": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 11.97,
+    "next_earnings": "2026-08-27"
+  },
+  "HRL": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 4.63,
+    "next_earnings": "2026-05-28"
+  },
+  "HSY": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 4.36,
+    "next_earnings": "2026-07-30"
+  },
+  "HUM": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 1.02,
+    "next_earnings": "2026-07-29"
+  },
+  "IBM": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 4.78,
+    "next_earnings": "2026-07-23"
+  },
+  "INTC": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 0,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": -0.81,
+    "next_earnings": "2026-07-24"
+  },
+  "IR": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 4.39,
+    "next_earnings": "2026-04-29"
+  },
+  "ISRG": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 1.68,
+    "next_earnings": "2026-07-22"
+  },
+  "ITW": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 3.76,
+    "next_earnings": "2026-07-29"
+  },
+  "J36.SI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 0,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 19.14,
+    "next_earnings": "2026-03-10"
+  },
+  "JNJ": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 4,
+    "fcf_yield": 3.47,
+    "next_earnings": "2026-07-15"
+  },
+  "JPM": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 0,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 3,
+    "fcf_yield": -18.43,
+    "next_earnings": "2026-07-14"
+  },
+  "K": {
+    "f_components": {},
+    "f_score": null,
+    "fcf_yield": null,
+    "next_earnings": null
+  },
+  "K71U.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 4,
+    "fcf_yield": 5.17,
+    "next_earnings": null
+  },
+  "KEY": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 9.01,
+    "next_earnings": "2026-04-16"
+  },
+  "KHC": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 0,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 12.66,
+    "next_earnings": "2026-07-29"
+  },
+  "KLAC": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 9,
+    "fcf_yield": 1.46,
+    "next_earnings": "2026-07-31"
+  },
+  "KMI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 4.03,
+    "next_earnings": "2026-07-16"
+  },
+  "KO": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 1.51,
+    "next_earnings": "2026-07-21"
+  },
+  "KSS": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 69.45,
+    "next_earnings": "2026-05-28"
+  },
+  "LIN": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 2.17,
+    "next_earnings": "2026-07-31"
+  },
+  "LLY": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 0.62,
+    "next_earnings": "2026-08-05"
+  },
+  "LMT": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 5.64,
+    "next_earnings": "2026-07-21"
+  },
+  "LOW": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 6.29,
+    "next_earnings": "2026-08-19"
+  },
+  "LRCX": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 1.36,
+    "next_earnings": "2026-07-30"
+  },
+  "M": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 12.43,
+    "next_earnings": "2026-06-03"
+  },
+  "M44U.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 5,
+    "fcf_yield": 8.97,
+    "next_earnings": "2026-07-30"
+  },
+  "MA": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 9,
+    "fcf_yield": 3.76,
+    "next_earnings": "2026-07-30"
+  },
+  "MCD": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 3.6,
+    "next_earnings": "2026-08-06"
+  },
+  "MCK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 5.95,
+    "next_earnings": "2026-08-06"
+  },
+  "MDT": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 5.32,
+    "next_earnings": "2026-06-03"
+  },
+  "ME8U.SI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 7,
+    "fcf_yield": 7.83,
+    "next_earnings": "2026-07-27"
+  },
+  "MET": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 31.93,
+    "next_earnings": "2026-05-07"
+  },
+  "META": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 2.86,
+    "next_earnings": "2026-07-30"
+  },
+  "MKC": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 5.79,
+    "next_earnings": "2026-03-31"
+  },
+  "MMC": {
+    "f_components": {},
+    "f_score": null,
+    "fcf_yield": null,
+    "next_earnings": null
+  },
+  "MMM": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 1.72,
+    "next_earnings": "2026-07-21"
+  },
+  "MO": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 7.54,
+    "next_earnings": "2026-07-30"
+  },
+  "MOH": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 0,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": -6.86,
+    "next_earnings": "2026-07-23"
+  },
+  "MOS": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": -7.09,
+    "next_earnings": "2026-08-04"
+  },
+  "MPC": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 6.61,
+    "next_earnings": "2026-08-04"
+  },
+  "MRK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 4.16,
+    "next_earnings": "2026-08-04"
+  },
+  "MS": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 0,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 3,
+    "fcf_yield": -6.54,
+    "next_earnings": "2026-07-15"
+  },
+  "MSFT": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 2.34,
+    "next_earnings": "2026-07-30"
+  },
+  "MTB": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 9.08,
+    "next_earnings": "2026-07-15"
+  },
+  "MU": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 0.16,
+    "next_earnings": "2026-06-25"
+  },
+  "N2IU.SI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 8,
+    "fcf_yield": 8.72,
+    "next_earnings": "2026-04-28"
+  },
+  "NEE": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 1.76,
+    "next_earnings": "2026-07-22"
+  },
+  "NEM": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 9,
+    "fcf_yield": 6.38,
+    "next_earnings": "2026-07-24"
+  },
+  "NKE": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 4.8,
+    "next_earnings": "2026-06-26"
+  },
+  "NOC": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 4.22,
+    "next_earnings": "2026-07-21"
+  },
+  "NSC": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 2.95,
+    "next_earnings": "2026-04-24"
+  },
+  "NTAP": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 4.73,
+    "next_earnings": "2026-05-29"
+  },
+  "NUE": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": -0.33,
+    "next_earnings": "2026-07-28"
+  },
+  "NVDA": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 1.88,
+    "next_earnings": "2026-08-27"
+  },
+  "O": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 5,
+    "fcf_yield": 6.89,
+    "next_earnings": "2026-08-04"
+  },
+  "O39.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 7.83,
+    "next_earnings": "2026-08-07"
+  },
+  "OKE": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 4.4,
+    "next_earnings": "2026-04-29"
+  },
+  "ORCL": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": -0.07,
+    "next_earnings": "2026-06-11"
+  },
+  "OTIS": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 5.24,
+    "next_earnings": "2026-07-22"
+  },
+  "OV8.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 4.74,
+    "next_earnings": "2026-07-27"
+  },
+  "PEP": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 3.8,
+    "next_earnings": "2026-07-16"
+  },
+  "PFE": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 6.08,
+    "next_earnings": "2026-07-29"
+  },
+  "PG": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 4.09,
+    "next_earnings": "2026-07-29"
+  },
+  "PH": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 3.09,
+    "next_earnings": "2026-08-06"
+  },
+  "PLD": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 3.67,
+    "next_earnings": "2026-07-15"
+  },
+  "PM": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 3.76,
+    "next_earnings": "2026-07-22"
+  },
+  "PNC": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 4.94,
+    "next_earnings": "2026-07-15"
+  },
+  "PRU": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 17.79,
+    "next_earnings": "2026-07-30"
+  },
+  "PSA": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 5.38,
+    "next_earnings": "2026-04-28"
+  },
+  "PSX": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 3.9,
+    "next_earnings": "2026-07-24"
+  },
+  "PTC": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 9,
+    "fcf_yield": 5.21,
+    "next_earnings": "2026-08-06"
+  },
+  "PVH": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 12.15,
+    "next_earnings": "2026-06-04"
+  },
+  "PXD": {
+    "f_components": {},
+    "f_score": null,
+    "fcf_yield": null,
+    "next_earnings": null
+  },
+  "QCOM": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 5.21,
+    "next_earnings": "2026-07-30"
+  },
+  "RF": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 8.97,
+    "next_earnings": "2026-07-17"
+  },
+  "RL": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 3.15,
+    "next_earnings": "2026-08-06"
+  },
+  "ROK": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 7,
+    "fcf_yield": 2.68,
+    "next_earnings": "2026-08-06"
+  },
+  "ROP": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 7.62,
+    "next_earnings": "2026-07-21"
+  },
+  "ROST": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 2.92,
+    "next_earnings": "2026-08-21"
+  },
+  "RTX": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 3.13,
+    "next_earnings": "2026-07-21"
+  },
+  "S07.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 0.59,
+    "next_earnings": "2026-03-26"
+  },
+  "S58.SI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 12.21,
+    "next_earnings": "2026-05-26"
+  },
+  "S68.SI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 9,
+    "fcf_yield": 3.37,
+    "next_earnings": null
+  },
+  "SBUX": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 2.1,
+    "next_earnings": "2026-07-29"
+  },
+  "SJM": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 0,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 7.44,
+    "next_earnings": "2026-06-09"
+  },
+  "SLB": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": 5.38,
+    "next_earnings": "2026-07-24"
+  },
+  "SNPS": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 3,
+    "fcf_yield": 1.34,
+    "next_earnings": "2026-05-28"
+  },
+  "SO": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 4,
+    "fcf_yield": -2.78,
+    "next_earnings": "2026-07-30"
+  },
+  "SPG": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 5,
+    "fcf_yield": 4.78,
+    "next_earnings": "2026-08-04"
+  },
+  "STX": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 0.42,
+    "next_earnings": "2026-07-29"
+  },
+  "SYK": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 3.65,
+    "next_earnings": "2026-07-31"
+  },
+  "T": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 11.24,
+    "next_earnings": "2026-07-22"
+  },
+  "TFC": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 9.51,
+    "next_earnings": "2026-07-17"
+  },
+  "TGT": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 4.86,
+    "next_earnings": "2026-08-19"
+  },
+  "TJX": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 2.83,
+    "next_earnings": "2026-08-19"
+  },
+  "TMUS": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 7.47,
+    "next_earnings": "2026-07-23"
+  },
+  "TRV": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 5,
+    "fcf_yield": 16.63,
+    "next_earnings": "2026-07-16"
+  },
+  "TSN": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 5.06,
+    "next_earnings": "2026-08-03"
+  },
+  "TXN": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 0.9,
+    "next_earnings": "2026-07-29"
+  },
+  "U11.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 3,
+    "fcf_yield": 0.07,
+    "next_earnings": "2026-08-07"
+  },
+  "U14.SI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 13.98,
+    "next_earnings": null
+  },
+  "U96.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 1.85,
+    "next_earnings": null
+  },
+  "UNH": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 4.61,
+    "next_earnings": "2026-07-28"
+  },
+  "UNP": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 3.32,
+    "next_earnings": "2026-07-23"
+  },
+  "UPS": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 5.37,
+    "next_earnings": "2026-07-28"
+  },
+  "USB": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 9.39,
+    "next_earnings": "2026-07-16"
+  },
+  "V": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 3.46,
+    "next_earnings": "2026-07-29"
+  },
+  "V03.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 4.36,
+    "next_earnings": null
+  },
+  "VFC": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 7.41,
+    "next_earnings": "2026-08-04"
+  },
+  "VICI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 8.14,
+    "next_earnings": "2026-07-30"
+  },
+  "VLO": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 6,
+    "fcf_yield": 7.05,
+    "next_earnings": "2026-07-23"
+  },
+  "VZ": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 9.77,
+    "next_earnings": "2026-07-21"
+  },
+  "WDC": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 0.7,
+    "next_earnings": "2026-07-30"
+  },
+  "WEC": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": -2.76,
+    "next_earnings": "2026-07-29"
+  },
+  "WELL": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 7,
+    "fcf_yield": 1.88,
+    "next_earnings": "2026-07-28"
+  },
+  "WFC": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 0,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 3,
+    "fcf_yield": -8.16,
+    "next_earnings": "2026-07-14"
+  },
+  "WMB": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 8,
+    "fcf_yield": 0.99,
+    "next_earnings": "2026-08-04"
+  },
+  "WMT": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 1.58,
+    "next_earnings": "2026-08-20"
+  },
+  "XEL": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 0,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": -13.5,
+    "next_earnings": "2026-07-30"
+  },
+  "XOM": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 3.85,
+    "next_earnings": "2026-07-31"
+  },
+  "XYL": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 1,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 7,
+    "fcf_yield": 3.48,
+    "next_earnings": "2026-04-28"
+  },
+  "Y92.SI": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 1,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 7,
+    "fcf_yield": 282.64,
+    "next_earnings": "2026-05-14"
+  },
+  "Z74.SI": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 0,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 5,
+    "fcf_yield": 3.23,
+    "next_earnings": "2026-05-21"
+  },
+  "ZBH": {
+    "f_components": {
+      "asset_turnover_up": 0,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 1,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 0
+    },
+    "f_score": 5,
+    "fcf_yield": 8.89,
+    "next_earnings": "2026-04-28"
+  },
+  "ZION": {
+    "f_components": {
+      "asset_turnover_up": 1,
+      "cfo_gt_ni": 1,
+      "cfo_positive": 1,
+      "current_ratio_up": 0,
+      "gross_margin_up": 0,
+      "ltd_decreasing": 0,
+      "net_income_positive": 1,
+      "no_new_shares": 1,
+      "roa_increasing": 1
+    },
+    "f_score": 6,
+    "fcf_yield": 10.39,
+    "next_earnings": "2026-07-21"
+  }
+}
