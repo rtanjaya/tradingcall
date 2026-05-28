@@ -4,7 +4,8 @@ __pycache__/
 .env
 .venv/
 venv/
-data/
+data/*.json
 *.json
+!data/fundamentals_cache.json
 !render.yaml
 .DS_Store

@@ -1,0 +1,1342 @@
+{
+  "AAPL": {
+    "pe": 37.588,
+    "pb": 42.817,
+    "sector": "Technology"
+  },
+  "MSFT": {
+    "pe": 24.564,
+    "pb": 7.399,
+    "sector": "Technology"
+  },
+  "GOOGL": {
+    "pe": 29.682,
+    "pb": 9.84,
+    "sector": "Communication Services"
+  },
+  "META": {
+    "pe": 23.092,
+    "pb": 6.616,
+    "sector": "Communication Services"
+  },
+  "NVDA": {
+    "pe": 32.557,
+    "pb": 32.849,
+    "sector": "Technology"
+  },
+  "AMD": {
+    "pe": 164.086,
+    "pb": 12.53,
+    "sector": "Technology"
+  },
+  "INTC": {
+    "pe": 79.086,
+    "pb": 5.491,
+    "sector": "Technology"
+  },
+  "CRM": {
+    "pe": 20.569,
+    "pb": 2.788,
+    "sector": "Technology"
+  },
+  "ORCL": {
+    "pe": 34.222,
+    "pb": 16.369,
+    "sector": "Technology"
+  },
+  "IBM": {
+    "pe": 22.564,
+    "pb": 7.274,
+    "sector": "Technology"
+  },
+  "CSCO": {
+    "pe": 39.89,
+    "pb": 9.679,
+    "sector": "Technology"
+  },
+  "QCOM": {
+    "pe": 25.124,
+    "pb": 9.061,
+    "sector": "Technology"
+  },
+  "TXN": {
+    "pe": 54.358,
+    "pb": 17.218,
+    "sector": "Technology"
+  },
+  "AVGO": {
+    "pe": 81.915,
+    "pb": 25.014,
+    "sector": "Technology"
+  },
+  "MU": {
+    "pe": 43.855,
+    "pb": 14.453,
+    "sector": "Technology"
+  },
+  "HPE": {
+    "pe": 13.615,
+    "pb": 1.995,
+    "sector": "Technology"
+  },
+  "AMAT": {
+    "pe": 42.208,
+    "pb": 14.885,
+    "sector": "Technology"
+  },
+  "LRCX": {
+    "pe": 60.289,
+    "pb": 37.681,
+    "sector": "Technology"
+  },
+  "KLAC": {
+    "pe": 55.555,
+    "pb": 43.877,
+    "sector": "Technology"
+  },
+  "ADI": {
+    "pe": 62.128,
+    "pb": 6.018,
+    "sector": "Technology"
+  },
+  "DELL": {
+    "pe": 35.216,
+    "pb": -80.602,
+    "sector": "Technology"
+  },
+  "HPQ": {
+    "pe": 9.655,
+    "pb": -30.527,
+    "sector": "Technology"
+  },
+  "WDC": {
+    "pe": 31.753,
+    "pb": 25.369,
+    "sector": "Technology"
+  },
+  "STX": {
+    "pe": 82.684,
+    "pb": 413.812,
+    "sector": "Technology"
+  },
+  "NTAP": {
+    "pe": 23.91,
+    "pb": 24.408,
+    "sector": "Technology"
+  },
+  "CDNS": {
+    "pe": 86.988,
+    "pb": 15.724,
+    "sector": "Technology"
+  },
+  "SNPS": {
+    "pe": 120.348,
+    "pb": 3.296,
+    "sector": "Technology"
+  },
+  "ANSS": {
+    "pe": null,
+    "pb": null,
+    "sector": ""
+  },
+  "PTC": {
+    "pe": 13.666,
+    "pb": 4.402,
+    "sector": "Technology"
+  },
+  "CTSH": {
+    "pe": 11.531,
+    "pb": 1.672,
+    "sector": "Technology"
+  },
+  "JPM": {
+    "pe": 14.326,
+    "pb": 2.331,
+    "sector": "Financial Services"
+  },
+  "BAC": {
+    "pe": 12.68,
+    "pb": 1.322,
+    "sector": "Financial Services"
+  },
+  "WFC": {
+    "pe": 11.764,
+    "pb": 1.431,
+    "sector": "Financial Services"
+  },
+  "GS": {
+    "pe": 18.214,
+    "pb": 2.797,
+    "sector": "Financial Services"
+  },
+  "MS": {
+    "pe": 18.245,
+    "pb": 3.046,
+    "sector": "Financial Services"
+  },
+  "C": {
+    "pe": 15.499,
+    "pb": 1.117,
+    "sector": "Financial Services"
+  },
+  "BLK": {
+    "pe": 26.954,
+    "pb": 2.933,
+    "sector": "Financial Services"
+  },
+  "AXP": {
+    "pe": 19.497,
+    "pb": 6.27,
+    "sector": "Financial Services"
+  },
+  "V": {
+    "pe": 28.562,
+    "pb": 16.353,
+    "sector": "Financial Services"
+  },
+  "MA": {
+    "pe": 28.648,
+    "pb": 65.343,
+    "sector": "Financial Services"
+  },
+  "USB": {
+    "pe": 11.465,
+    "pb": 1.457,
+    "sector": "Financial Services"
+  },
+  "TFC": {
+    "pe": 11.995,
+    "pb": 1.015,
+    "sector": "Financial Services"
+  },
+  "COF": {
+    "pe": 58.092,
+    "pb": 1.088,
+    "sector": "Financial Services"
+  },
+  "ALL": {
+    "pe": 4.621,
+    "pb": 1.82,
+    "sector": "Financial Services"
+  },
+  "MET": {
+    "pe": 16.093,
+    "pb": 1.967,
+    "sector": "Financial Services"
+  },
+  "PRU": {
+    "pe": 10.452,
+    "pb": 1.102,
+    "sector": "Financial Services"
+  },
+  "AFL": {
+    "pe": 13.126,
+    "pb": 1.957,
+    "sector": "Financial Services"
+  },
+  "CB": {
+    "pe": 11.338,
+    "pb": 1.688,
+    "sector": "Financial Services"
+  },
+  "TRV": {
+    "pe": 8.953,
+    "pb": 1.994,
+    "sector": "Financial Services"
+  },
+  "MMC": {
+    "pe": null,
+    "pb": null,
+    "sector": ""
+  },
+  "PNC": {
+    "pe": 12.837,
+    "pb": 1.395,
+    "sector": "Financial Services"
+  },
+  "FITB": {
+    "pe": 16.798,
+    "pb": 1.416,
+    "sector": "Financial Services"
+  },
+  "KEY": {
+    "pe": 13.19,
+    "pb": 1.337,
+    "sector": "Financial Services"
+  },
+  "RF": {
+    "pe": 11.656,
+    "pb": 1.378,
+    "sector": "Financial Services"
+  },
+  "CFG": {
+    "pe": 14.948,
+    "pb": 1.117,
+    "sector": "Financial Services"
+  },
+  "HBAN": {
+    "pe": 12.331,
+    "pb": 1.096,
+    "sector": "Financial Services"
+  },
+  "MTB": {
+    "pe": 12.077,
+    "pb": 1.237,
+    "sector": "Financial Services"
+  },
+  "ZION": {
+    "pe": 9.677,
+    "pb": 1.293,
+    "sector": "Financial Services"
+  },
+  "JNJ": {
+    "pe": 26.801,
+    "pb": 6.856,
+    "sector": "Healthcare"
+  },
+  "UNH": {
+    "pe": 28.895,
+    "pb": 3.562,
+    "sector": "Healthcare"
+  },
+  "PFE": {
+    "pe": 20.008,
+    "pb": 1.658,
+    "sector": "Healthcare"
+  },
+  "MRK": {
+    "pe": 33.87,
+    "pb": 6.473,
+    "sector": "Healthcare"
+  },
+  "ABBV": {
+    "pe": 104.058,
+    "pb": -57.181,
+    "sector": "Healthcare"
+  },
+  "LLY": {
+    "pe": 38.456,
+    "pb": 31.014,
+    "sector": "Healthcare"
+  },
+  "BMY": {
+    "pe": 16.112,
+    "pb": 5.853,
+    "sector": "Healthcare"
+  },
+  "AMGN": {
+    "pe": 23.37,
+    "pb": 19.736,
+    "sector": "Healthcare"
+  },
+  "GILD": {
+    "pe": 18.189,
+    "pb": 7.061,
+    "sector": "Healthcare"
+  },
+  "CVS": {
+    "pe": 40.382,
+    "pb": 1.513,
+    "sector": "Healthcare"
+  },
+  "MCK": {
+    "pe": 19.725,
+    "pb": -41.794,
+    "sector": "Healthcare"
+  },
+  "ABT": {
+    "pe": 24.0,
+    "pb": 2.867,
+    "sector": "Healthcare"
+  },
+  "MDT": {
+    "pe": 21.223,
+    "pb": 1.991,
+    "sector": "Healthcare"
+  },
+  "ELV": {
+    "pe": 16.581,
+    "pb": 1.938,
+    "sector": "Healthcare"
+  },
+  "HUM": {
+    "pe": 32.686,
+    "pb": 1.979,
+    "sector": "Healthcare"
+  },
+  "CI": {
+    "pe": 2.513,
+    "pb": 1.791,
+    "sector": "Healthcare"
+  },
+  "CNC": {
+    "pe": 13.202,
+    "pb": 1.355,
+    "sector": "Healthcare"
+  },
+  "MOH": {
+    "pe": 47.559,
+    "pb": 2.267,
+    "sector": "Healthcare"
+  },
+  "ISRG": {
+    "pe": 50.733,
+    "pb": 8.489,
+    "sector": "Healthcare"
+  },
+  "BSX": {
+    "pe": 21.113,
+    "pb": 2.9,
+    "sector": "Healthcare"
+  },
+  "SYK": {
+    "pe": 35.451,
+    "pb": 5.22,
+    "sector": "Healthcare"
+  },
+  "ZBH": {
+    "pe": 21.389,
+    "pb": 1.26,
+    "sector": "Healthcare"
+  },
+  "BDX": {
+    "pe": 25.696,
+    "pb": 1.681,
+    "sector": "Healthcare"
+  },
+  "BAX": {
+    "pe": 9.611,
+    "pb": 1.652,
+    "sector": "Healthcare"
+  },
+  "CAH": {
+    "pe": 30.51,
+    "pb": -16.583,
+    "sector": "Healthcare"
+  },
+  "AMP": {
+    "pe": 11.038,
+    "pb": 6.426,
+    "sector": "Financial Services"
+  },
+  "AMZN": {
+    "pe": 31.647,
+    "pb": 6.615,
+    "sector": "Consumer Cyclical"
+  },
+  "HD": {
+    "pe": 22.575,
+    "pb": 22.772,
+    "sector": "Consumer Cyclical"
+  },
+  "LOW": {
+    "pe": 18.314,
+    "pb": -13.123,
+    "sector": "Consumer Cyclical"
+  },
+  "MCD": {
+    "pe": 23.14,
+    "pb": -155.204,
+    "sector": "Consumer Cyclical"
+  },
+  "SBUX": {
+    "pe": 77.939,
+    "pb": -13.743,
+    "sector": "Consumer Cyclical"
+  },
+  "NKE": {
+    "pe": 30.25,
+    "pb": 4.83,
+    "sector": "Consumer Cyclical"
+  },
+  "TGT": {
+    "pe": 16.952,
+    "pb": 3.595,
+    "sector": "Consumer Defensive"
+  },
+  "COST": {
+    "pe": 52.086,
+    "pb": 26.924,
+    "sector": "Consumer Defensive"
+  },
+  "TJX": {
+    "pe": 30.606,
+    "pb": 17.059,
+    "sector": "Consumer Cyclical"
+  },
+  "ROST": {
+    "pe": 32.562,
+    "pb": 12.162,
+    "sector": "Consumer Cyclical"
+  },
+  "BBY": {
+    "pe": 12.806,
+    "pb": 4.553,
+    "sector": "Consumer Cyclical"
+  },
+  "KSS": {
+    "pe": 5.433,
+    "pb": 0.358,
+    "sector": "Consumer Cyclical"
+  },
+  "M": {
+    "pe": 9.073,
+    "pb": 1.139,
+    "sector": "Consumer Cyclical"
+  },
+  "GPS": {
+    "pe": null,
+    "pb": null,
+    "sector": ""
+  },
+  "PVH": {
+    "pe": 185.0,
+    "pb": 0.92,
+    "sector": "Consumer Cyclical"
+  },
+  "RL": {
+    "pe": 24.883,
+    "pb": 7.894,
+    "sector": "Consumer Cyclical"
+  },
+  "VFC": {
+    "pe": 27.203,
+    "pb": 1.842,
+    "sector": "Consumer Cyclical"
+  },
+  "HBI": {
+    "pe": null,
+    "pb": null,
+    "sector": ""
+  },
+  "WMT": {
+    "pe": 41.739,
+    "pb": 9.482,
+    "sector": "Consumer Defensive"
+  },
+  "PG": {
+    "pe": 21.563,
+    "pb": 6.39,
+    "sector": "Consumer Defensive"
+  },
+  "KO": {
+    "pe": 25.667,
+    "pb": 10.443,
+    "sector": "Consumer Defensive"
+  },
+  "PEP": {
+    "pe": 23.193,
+    "pb": 9.452,
+    "sector": "Consumer Defensive"
+  },
+  "PM": {
+    "pe": 25.639,
+    "pb": -28.355,
+    "sector": "Consumer Defensive"
+  },
+  "MO": {
+    "pe": 15.054,
+    "pb": -37.518,
+    "sector": "Consumer Defensive"
+  },
+  "CL": {
+    "pe": 35.384,
+    "pb": 504.365,
+    "sector": "Consumer Defensive"
+  },
+  "GIS": {
+    "pe": 8.227,
+    "pb": 3.25,
+    "sector": "Consumer Defensive"
+  },
+  "K": {
+    "pe": null,
+    "pb": null,
+    "sector": ""
+  },
+  "CPB": {
+    "pe": 11.141,
+    "pb": 1.525,
+    "sector": "Consumer Defensive"
+  },
+  "SJM": {
+    "pe": 10.425,
+    "pb": 2.098,
+    "sector": "Consumer Defensive"
+  },
+  "CAG": {
+    "pe": 7.936,
+    "pb": 0.781,
+    "sector": "Consumer Defensive"
+  },
+  "MKC": {
+    "pe": 7.795,
+    "pb": 1.831,
+    "sector": "Consumer Defensive"
+  },
+  "HRL": {
+    "pe": 23.551,
+    "pb": 1.453,
+    "sector": "Consumer Defensive"
+  },
+  "TSN": {
+    "pe": 51.984,
+    "pb": 1.285,
+    "sector": "Consumer Defensive"
+  },
+  "KHC": {
+    "pe": 11.565,
+    "pb": 0.69,
+    "sector": "Consumer Defensive"
+  },
+  "HSY": {
+    "pe": 36.907,
+    "pb": 8.476,
+    "sector": "Consumer Defensive"
+  },
+  "XOM": {
+    "pe": 24.857,
+    "pb": 2.383,
+    "sector": "Energy"
+  },
+  "CVX": {
+    "pe": 31.722,
+    "pb": 1.963,
+    "sector": "Energy"
+  },
+  "COP": {
+    "pe": 19.547,
+    "pb": 2.173,
+    "sector": "Energy"
+  },
+  "EOG": {
+    "pe": 13.206,
+    "pb": 2.324,
+    "sector": "Energy"
+  },
+  "SLB": {
+    "pe": 24.89,
+    "pb": 3.088,
+    "sector": "Energy"
+  },
+  "MPC": {
+    "pe": 16.339,
+    "pb": 4.321,
+    "sector": "Energy"
+  },
+  "PSX": {
+    "pe": 17.239,
+    "pb": 2.408,
+    "sector": "Energy"
+  },
+  "VLO": {
+    "pe": 17.543,
+    "pb": 3.028,
+    "sector": "Energy"
+  },
+  "KMI": {
+    "pe": 21.624,
+    "pb": 2.289,
+    "sector": "Energy"
+  },
+  "WMB": {
+    "pe": 32.618,
+    "pb": 7.115,
+    "sector": "Energy"
+  },
+  "OKE": {
+    "pe": 15.724,
+    "pb": 2.486,
+    "sector": "Energy"
+  },
+  "HAL": {
+    "pe": 21.878,
+    "pb": 3.067,
+    "sector": "Energy"
+  },
+  "BKR": {
+    "pe": 20.192,
+    "pb": 3.245,
+    "sector": "Energy"
+  },
+  "DVN": {
+    "pe": 12.331,
+    "pb": 1.782,
+    "sector": "Energy"
+  },
+  "PXD": {
+    "pe": null,
+    "pb": null,
+    "sector": ""
+  },
+  "GE": {
+    "pe": 39.356,
+    "pb": 17.812,
+    "sector": "Industrials"
+  },
+  "HON": {
+    "pe": 37.048,
+    "pb": 10.796,
+    "sector": "Industrials"
+  },
+  "MMM": {
+    "pe": 29.956,
+    "pb": 24.803,
+    "sector": "Industrials"
+  },
+  "CAT": {
+    "pe": 45.248,
+    "pb": 22.461,
+    "sector": "Industrials"
+  },
+  "DE": {
+    "pe": 30.028,
+    "pb": 5.217,
+    "sector": "Industrials"
+  },
+  "BA": {
+    "pe": 88.656,
+    "pb": 29.548,
+    "sector": "Industrials"
+  },
+  "RTX": {
+    "pe": 33.131,
+    "pb": 3.633,
+    "sector": "Industrials"
+  },
+  "LMT": {
+    "pe": 25.709,
+    "pb": 16.312,
+    "sector": "Industrials"
+  },
+  "NOC": {
+    "pe": 17.273,
+    "pb": 4.575,
+    "sector": "Industrials"
+  },
+  "GD": {
+    "pe": 21.553,
+    "pb": 3.548,
+    "sector": "Industrials"
+  },
+  "EMR": {
+    "pe": 32.343,
+    "pb": 3.854,
+    "sector": "Industrials"
+  },
+  "ETN": {
+    "pe": 39.84,
+    "pb": 8.001,
+    "sector": "Industrials"
+  },
+  "ITW": {
+    "pe": 23.261,
+    "pb": 22.397,
+    "sector": "Industrials"
+  },
+  "PH": {
+    "pe": 31.647,
+    "pb": 7.394,
+    "sector": "Industrials"
+  },
+  "ROK": {
+    "pe": 47.41,
+    "pb": 14.409,
+    "sector": "Industrials"
+  },
+  "XYL": {
+    "pe": 27.388,
+    "pb": 2.336,
+    "sector": "Industrials"
+  },
+  "IR": {
+    "pe": 47.946,
+    "pb": 2.729,
+    "sector": "Industrials"
+  },
+  "FTV": {
+    "pe": 35.241,
+    "pb": 3.01,
+    "sector": "Technology"
+  },
+  "AME": {
+    "pe": 34.248,
+    "pb": 4.752,
+    "sector": "Industrials"
+  },
+  "ROP": {
+    "pe": 19.764,
+    "pb": 1.698,
+    "sector": "Technology"
+  },
+  "CARR": {
+    "pe": 43.007,
+    "pb": 3.987,
+    "sector": "Industrials"
+  },
+  "OTIS": {
+    "pe": 19.093,
+    "pb": -4.875,
+    "sector": "Industrials"
+  },
+  "FDX": {
+    "pe": 21.973,
+    "pb": 3.302,
+    "sector": "Industrials"
+  },
+  "UPS": {
+    "pe": 16.905,
+    "pb": 5.466,
+    "sector": "Industrials"
+  },
+  "CSX": {
+    "pe": 28.92,
+    "pb": 6.451,
+    "sector": "Industrials"
+  },
+  "NSC": {
+    "pe": 27.484,
+    "pb": 4.628,
+    "sector": "Industrials"
+  },
+  "UNP": {
+    "pe": 22.995,
+    "pb": 8.975,
+    "sector": "Industrials"
+  },
+  "LIN": {
+    "pe": 33.678,
+    "pb": 6.092,
+    "sector": "Basic Materials"
+  },
+  "APD": {
+    "pe": 30.109,
+    "pb": 4.066,
+    "sector": "Basic Materials"
+  },
+  "ECL": {
+    "pe": 35.58,
+    "pb": 7.387,
+    "sector": "Basic Materials"
+  },
+  "NEM": {
+    "pe": 13.908,
+    "pb": 3.294,
+    "sector": "Basic Materials"
+  },
+  "FCX": {
+    "pe": 33.667,
+    "pb": 4.688,
+    "sector": "Basic Materials"
+  },
+  "NUE": {
+    "pe": 24.451,
+    "pb": 2.688,
+    "sector": "Basic Materials"
+  },
+  "ALB": {
+    "pe": 14.928,
+    "pb": 2.747,
+    "sector": "Basic Materials"
+  },
+  "CF": {
+    "pe": 10.481,
+    "pb": 3.345,
+    "sector": "Basic Materials"
+  },
+  "MOS": {
+    "pe": 169.429,
+    "pb": 0.623,
+    "sector": "Basic Materials"
+  },
+  "FMC": {
+    "pe": 6.132,
+    "pb": 0.927,
+    "sector": "Basic Materials"
+  },
+  "NEE": {
+    "pe": 22.246,
+    "pb": 3.31,
+    "sector": "Utilities"
+  },
+  "DUK": {
+    "pe": 19.255,
+    "pb": 1.823,
+    "sector": "Utilities"
+  },
+  "SO": {
+    "pe": 23.974,
+    "pb": 2.847,
+    "sector": "Utilities"
+  },
+  "AEP": {
+    "pe": 19.167,
+    "pb": 2.216,
+    "sector": "Utilities"
+  },
+  "D": {
+    "pe": 19.823,
+    "pb": 2.098,
+    "sector": "Utilities"
+  },
+  "EXC": {
+    "pe": 16.919,
+    "pb": 1.612,
+    "sector": "Utilities"
+  },
+  "XEL": {
+    "pe": 23.343,
+    "pb": 2.14,
+    "sector": "Utilities"
+  },
+  "WEC": {
+    "pe": 22.673,
+    "pb": 2.705,
+    "sector": "Utilities"
+  },
+  "ES": {
+    "pe": 14.908,
+    "pb": 1.583,
+    "sector": "Utilities"
+  },
+  "ETR": {
+    "pe": 28.374,
+    "pb": 2.943,
+    "sector": "Utilities"
+  },
+  "PLD": {
+    "pe": 36.722,
+    "pb": 2.556,
+    "sector": "Real Estate"
+  },
+  "AMT": {
+    "pe": 29.835,
+    "pb": 24.471,
+    "sector": "Real Estate"
+  },
+  "CCI": {
+    "pe": 38.342,
+    "pb": -20.634,
+    "sector": "Real Estate"
+  },
+  "EQIX": {
+    "pe": 74.064,
+    "pb": 7.382,
+    "sector": "Real Estate"
+  },
+  "SPG": {
+    "pe": 14.389,
+    "pb": 13.013,
+    "sector": "Real Estate"
+  },
+  "O": {
+    "pe": 50.975,
+    "pb": 1.481,
+    "sector": "Real Estate"
+  },
+  "VICI": {
+    "pe": 9.805,
+    "pb": 1.086,
+    "sector": "Real Estate"
+  },
+  "WELL": {
+    "pe": 102.971,
+    "pb": 3.541,
+    "sector": "Real Estate"
+  },
+  "DLR": {
+    "pe": 50.717,
+    "pb": 2.955,
+    "sector": "Real Estate"
+  },
+  "PSA": {
+    "pe": 31.66,
+    "pb": 10.992,
+    "sector": "Real Estate"
+  },
+  "T": {
+    "pe": 8.188,
+    "pb": 1.585,
+    "sector": "Communication Services"
+  },
+  "VZ": {
+    "pe": 11.766,
+    "pb": 1.948,
+    "sector": "Communication Services"
+  },
+  "TMUS": {
+    "pe": 20.277,
+    "pb": 3.568,
+    "sector": "Communication Services"
+  },
+  "0700.HK": {
+    "pe": 15.21,
+    "pb": 2.943,
+    "sector": "Communication Services"
+  },
+  "9988.HK": {
+    "pe": 19.196,
+    "pb": 1.848,
+    "sector": "Consumer Cyclical"
+  },
+  "0005.HK": {
+    "pe": 15.269,
+    "pb": 1.818,
+    "sector": "Financial Services"
+  },
+  "0941.HK": {
+    "pe": 11.678,
+    "pb": 1.115,
+    "sector": "Communication Services"
+  },
+  "1299.HK": {
+    "pe": 17.825,
+    "pb": 2.544,
+    "sector": "Financial Services"
+  },
+  "2318.HK": {
+    "pe": 7.081,
+    "pb": 0.913,
+    "sector": "Financial Services"
+  },
+  "0388.HK": {
+    "pe": 26.694,
+    "pb": 9.113,
+    "sector": "Financial Services"
+  },
+  "3988.HK": {
+    "pe": 6.024,
+    "pb": 0.523,
+    "sector": "Financial Services"
+  },
+  "0939.HK": {
+    "pe": 5.647,
+    "pb": 0.541,
+    "sector": "Financial Services"
+  },
+  "1398.HK": {
+    "pe": 5.681,
+    "pb": 0.516,
+    "sector": "Financial Services"
+  },
+  "0857.HK": {
+    "pe": 10.79,
+    "pb": 1.054,
+    "sector": "Energy"
+  },
+  "0386.HK": {
+    "pe": 14.0,
+    "pb": 0.548,
+    "sector": "Energy"
+  },
+  "2628.HK": {
+    "pe": 4.827,
+    "pb": 1.165,
+    "sector": "Financial Services"
+  },
+  "0883.HK": {
+    "pe": 8.851,
+    "pb": 1.288,
+    "sector": "Energy"
+  },
+  "0003.HK": {
+    "pe": 23.767,
+    "pb": 2.241,
+    "sector": "Utilities"
+  },
+  "0001.HK": {
+    "pe": 22.282,
+    "pb": 0.469,
+    "sector": "Industrials"
+  },
+  "0002.HK": {
+    "pe": 18.37,
+    "pb": 1.786,
+    "sector": "Utilities"
+  },
+  "0016.HK": {
+    "pe": 17.118,
+    "pb": 0.606,
+    "sector": "Real Estate"
+  },
+  "0011.HK": {
+    "pe": null,
+    "pb": null,
+    "sector": ""
+  },
+  "1109.HK": {
+    "pe": 8.41,
+    "pb": 0.736,
+    "sector": "Real Estate"
+  },
+  "1038.HK": {
+    "pe": 17.275,
+    "pb": 1.174,
+    "sector": "Utilities"
+  },
+  "0066.HK": {
+    "pe": 13.746,
+    "pb": 1.051,
+    "sector": "Industrials"
+  },
+  "0823.HK": {
+    "pe": 16.076,
+    "pb": 0.656,
+    "sector": "Real Estate"
+  },
+  "2331.HK": {
+    "pe": 13.55,
+    "pb": 1.436,
+    "sector": "Consumer Cyclical"
+  },
+  "9618.HK": {
+    "pe": 21.33,
+    "pb": 1.25,
+    "sector": "Consumer Cyclical"
+  },
+  "0762.HK": {
+    "pe": 9.769,
+    "pb": 0.548,
+    "sector": "Communication Services"
+  },
+  "1044.HK": {
+    "pe": 9.416,
+    "pb": 1.119,
+    "sector": "Consumer Defensive"
+  },
+  "1113.HK": {
+    "pe": 14.806,
+    "pb": 0.405,
+    "sector": "Real Estate"
+  },
+  "0267.HK": {
+    "pe": 5.681,
+    "pb": 0.425,
+    "sector": "Industrials"
+  },
+  "2020.HK": {
+    "pe": 13.403,
+    "pb": 2.734,
+    "sector": "Consumer Cyclical"
+  },
+  "0175.HK": {
+    "pe": 10.021,
+    "pb": 1.866,
+    "sector": "Consumer Cyclical"
+  },
+  "0027.HK": {
+    "pe": 12.705,
+    "pb": 1.631,
+    "sector": "Consumer Cyclical"
+  },
+  "1211.HK": {
+    "pe": 40.022,
+    "pb": 3.059,
+    "sector": "Consumer Cyclical"
+  },
+  "3690.HK": {
+    "pe": 13.798,
+    "pb": 2.569,
+    "sector": "Consumer Cyclical"
+  },
+  "0688.HK": {
+    "pe": 11.313,
+    "pb": 0.371,
+    "sector": "Real Estate"
+  },
+  "0012.HK": {
+    "pe": 27.211,
+    "pb": 0.466,
+    "sector": "Real Estate"
+  },
+  "0017.HK": {
+    "pe": -337.079,
+    "pb": 0.12,
+    "sector": "Real Estate"
+  },
+  "0288.HK": {
+    "pe": 9.167,
+    "pb": 1.288,
+    "sector": "Consumer Defensive"
+  },
+  "6098.HK": {
+    "pe": 27.143,
+    "pb": 0.451,
+    "sector": "Real Estate"
+  },
+  "9999.HK": {
+    "pe": 15.718,
+    "pb": 3.226,
+    "sector": "Communication Services"
+  },
+  "1024.HK": {
+    "pe": 9.164,
+    "pb": 2.042,
+    "sector": "Communication Services"
+  },
+  "0960.HK": {
+    "pe": 44.0,
+    "pb": 0.281,
+    "sector": "Real Estate"
+  },
+  "1810.HK": {
+    "pe": 15.844,
+    "pb": 2.441,
+    "sector": "Technology"
+  },
+  "2382.HK": {
+    "pe": 14.969,
+    "pb": 2.379,
+    "sector": "Technology"
+  },
+  "9888.HK": {
+    "pe": 14.127,
+    "pb": 1.101,
+    "sector": "Communication Services"
+  },
+  "D05.SI": {
+    "pe": 16.217,
+    "pb": 2.56,
+    "sector": "Financial Services"
+  },
+  "O39.SI": {
+    "pe": 14.109,
+    "pb": 1.74,
+    "sector": "Financial Services"
+  },
+  "U11.SI": {
+    "pe": 13.698,
+    "pb": 1.283,
+    "sector": "Financial Services"
+  },
+  "Z74.SI": {
+    "pe": 12.853,
+    "pb": 2.768,
+    "sector": "Communication Services"
+  },
+  "C6L.SI": {
+    "pe": 17.632,
+    "pb": 1.223,
+    "sector": "Industrials"
+  },
+  "S68.SI": {
+    "pe": 35.164,
+    "pb": 10.047,
+    "sector": "Financial Services"
+  },
+  "U96.SI": {
+    "pe": 11.564,
+    "pb": 2.04,
+    "sector": "Utilities"
+  },
+  "C38U.SI": {
+    "pe": 17.615,
+    "pb": 1.07,
+    "sector": "Real Estate"
+  },
+  "A17U.SI": {
+    "pe": 14.706,
+    "pb": 1.114,
+    "sector": "Real Estate"
+  },
+  "ME8U.SI": {
+    "pe": 27.571,
+    "pb": 1.186,
+    "sector": "Real Estate"
+  },
+  "N2IU.SI": {
+    "pe": 25.2,
+    "pb": 0.719,
+    "sector": "Real Estate"
+  },
+  "H78.SI": {
+    "pe": 13.017,
+    "pb": 0.529,
+    "sector": "Real Estate"
+  },
+  "BS6.SI": {
+    "pe": 8.854,
+    "pb": 2.364,
+    "sector": "Industrials"
+  },
+  "BN4.SI": {
+    "pe": 19.179,
+    "pb": 1.849,
+    "sector": "Industrials"
+  },
+  "U14.SI": {
+    "pe": 17.632,
+    "pb": 0.722,
+    "sector": "Real Estate"
+  },
+  "V03.SI": {
+    "pe": 22.557,
+    "pb": 1.836,
+    "sector": "Technology"
+  },
+  "S58.SI": {
+    "pe": 19.947,
+    "pb": 2.035,
+    "sector": "Industrials"
+  },
+  "G13.SI": {
+    "pe": 20.0,
+    "pb": 0.884,
+    "sector": "Consumer Cyclical"
+  },
+  "C09.SI": {
+    "pe": 12.324,
+    "pb": 0.802,
+    "sector": "Real Estate"
+  },
+  "9CI.SI": {
+    "pe": 86.0,
+    "pb": 1.023,
+    "sector": "Real Estate"
+  },
+  "F34.SI": {
+    "pe": 11.655,
+    "pb": 0.755,
+    "sector": "Consumer Defensive"
+  },
+  "J36.SI": {
+    "pe": 17.003,
+    "pb": 0.654,
+    "sector": "Industrials"
+  },
+  "S07.SI": {
+    "pe": 17.48,
+    "pb": 0.373,
+    "sector": "Consumer Cyclical"
+  },
+  "Y92.SI": {
+    "pe": 11.25,
+    "pb": 1.94,
+    "sector": "Consumer Defensive"
+  },
+  "OV8.SI": {
+    "pe": 30.2,
+    "pb": 7.208,
+    "sector": "Consumer Defensive"
+  },
+  "5E2.SI": {
+    "pe": 24.0,
+    "pb": 1.059,
+    "sector": "Energy"
+  },
+  "M44U.SI": {
+    "pe": 23.6,
+    "pb": 0.932,
+    "sector": "Real Estate"
+  },
+  "BUOU.SI": {
+    "pe": 16.5,
+    "pb": 0.884,
+    "sector": "Real Estate"
+  },
+  "K71U.SI": {
+    "pe": 7.864,
+    "pb": 0.678,
+    "sector": "Real Estate"
+  }
+}

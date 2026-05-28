@@ -3,9 +3,11 @@ Core stock screening engine — yfinance 1.x compatible.
 Batched price downloads + fast_info for speed, info only for top candidates.
 """
 
+import json
 import time
 import logging
 from datetime import datetime, date
+from pathlib import Path
 from typing import Optional
 
 import numpy as np
@@ -23,6 +25,20 @@ BATCH_DELAY = 2.5     # seconds between batches
 INFO_DELAY = 1.5      # seconds between .info calls (increased for cloud servers)
 MAX_INFO_CALLS = 40   # fetch fundamentals for top N candidates only
 INFO_RETRIES = 3      # retry attempts for fundamentals fetch
+
+FUNDAMENTALS_CACHE_FILE = Path("data/fundamentals_cache.json")
+
+def _load_fundamentals_cache() -> dict:
+    try:
+        if FUNDAMENTALS_CACHE_FILE.exists():
+            return json.loads(FUNDAMENTALS_CACHE_FILE.read_text())
+    except Exception:
+        pass
+    return {}
+
+# Load once at module import — stays in memory for the process lifetime
+_FUND_CACHE: dict = _load_fundamentals_cache()
+logger.info(f"Loaded fundamentals cache: {len(_FUND_CACHE)} entries")
 
 
 # ── Technical Indicators ───────────────────────────────────────────────────────
@@ -225,17 +241,29 @@ _YF_HEADERS = {
 }
 
 def fetch_fundamentals(ticker: str) -> dict:
-    """Fetch P/E, P/B, name, sector — tries direct Yahoo v8 API first (faster,
-    less rate-limited on cloud), falls back to yfinance .info with retry."""
+    """Return P/E, P/B, sector for a ticker.
+    Priority: (1) committed fundamentals cache, (2) live Yahoo v8 API, (3) yfinance fallback."""
     base_name = COMPANY_NAMES.get(ticker, "")
-    base = {"name": base_name or ticker, "sector": ""}
 
-    # ── Attempt 1: direct Yahoo Finance quoteSummary API ──────────────────────
+    # ── 1. Use committed cache (always works on cloud) ────────────────────────
+    cached = _FUND_CACHE.get(ticker, {})
+    base = {
+        "name": base_name or ticker,
+        "sector": cached.get("sector", ""),
+        "pe": _safe(cached.get("pe")) if cached.get("pe") else None,
+        "pb": _safe(cached.get("pb")) if cached.get("pb") else None,
+        "roe": None,
+    }
+    # If cache has valid data, return immediately — no API call needed
+    if base["pe"] or base["pb"]:
+        return base
+
+    # ── 2. Live Yahoo Finance v8 API (works on localhost, blocked on cloud) ───
     for attempt in range(INFO_RETRIES):
         try:
             url = (
                 f"https://query1.finance.yahoo.com/v8/finance/quoteSummary/{ticker}"
-                f"?modules=defaultKeyStatistics,summaryDetail,assetProfile&corsDomain=finance.yahoo.com"
+                f"?modules=defaultKeyStatistics,summaryDetail,assetProfile"
             )
             r = requests.get(url, headers=_YF_HEADERS, timeout=12)
             if r.status_code == 429:
@@ -244,46 +272,37 @@ def fetch_fundamentals(ticker: str) -> dict:
             r.raise_for_status()
             body = r.json().get("quoteSummary", {}).get("result", [])
             if not body:
-                raise ValueError("Empty quoteSummary result")
+                raise ValueError("Empty result")
             d = body[0]
             ks = d.get("defaultKeyStatistics", {})
             sd = d.get("summaryDetail", {})
             ap = d.get("assetProfile", {})
             pe = _safe(sd.get("trailingPE", {}).get("raw") or ks.get("forwardPE", {}).get("raw"))
             pb = _safe(ks.get("priceToBook", {}).get("raw"))
-            roe = _safe(ks.get("returnOnEquity", {}).get("raw"))
-            sector = ap.get("sector", "")
             return {
                 "name": base_name or ticker,
-                "sector": sector,
-                "pe": pe,
-                "pb": pb,
-                "roe": roe,
+                "sector": ap.get("sector", base["sector"]),
+                "pe": pe, "pb": pb, "roe": None,
             }
         except Exception as e:
-            wait = 2 * (attempt + 1)
-            logger.warning(f"Direct API attempt {attempt+1} failed for {ticker}: {e} — wait {wait}s")
             if attempt < INFO_RETRIES - 1:
-                time.sleep(wait)
+                time.sleep(2 * (attempt + 1))
 
-    # ── Attempt 2: fall back to yfinance .info ────────────────────────────────
-    for attempt in range(2):
-        try:
-            info = yf.Ticker(ticker).info
-            if info:
-                pe_raw = info.get("trailingPE") or info.get("forwardPE")
-                return {
-                    "name": base_name or info.get("longName") or info.get("shortName") or ticker,
-                    "sector": info.get("sector", ""),
-                    "pe": _safe(pe_raw),
-                    "pb": _safe(info.get("priceToBook")),
-                    "roe": _safe(info.get("returnOnEquity")),
-                }
-        except Exception as e:
-            logger.warning(f"yfinance .info fallback attempt {attempt+1} failed for {ticker}: {e}")
-            time.sleep(3)
+    # ── 3. yfinance .info fallback ────────────────────────────────────────────
+    try:
+        info = yf.Ticker(ticker).info
+        if info:
+            pe_raw = info.get("trailingPE") or info.get("forwardPE")
+            return {
+                "name": base_name or info.get("longName") or ticker,
+                "sector": info.get("sector", base["sector"]),
+                "pe": _safe(pe_raw),
+                "pb": _safe(info.get("priceToBook")),
+                "roe": None,
+            }
+    except Exception:
+        pass
 
-    logger.warning(f"All fundamentals attempts failed for {ticker}")
     return base
 
 
