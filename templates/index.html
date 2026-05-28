@@ -9,7 +9,6 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      /* Light background */
       --bg:        #f5f5f0;
       --surface:   #ffffff;
       --surface2:  #f8f8f4;
@@ -19,7 +18,6 @@
       --secondary: #444440;
       --muted:     #888880;
 
-      /* Vivid callout colours — same palette as original dark version */
       --green:      #16a34a;
       --green-dim:  #dcfce7;
       --green-text: #14532d;
@@ -32,6 +30,8 @@
       --blue:       #2563eb;
       --blue-dim:   #dbeafe;
       --blue-text:  #1e3a8a;
+      --purple:     #7c3aed;
+      --purple-dim: #ede9fe;
 
       --font: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
@@ -59,38 +59,21 @@
       top: 0;
       z-index: 100;
     }
-
-    /* Logo */
     .logo { display: flex; align-items: baseline; gap: 0; text-decoration: none; }
     .logo-trading {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-weight: 300;
-      font-size: 19px;
-      letter-spacing: 0.05em;
-      color: var(--text);
-      text-transform: uppercase;
+      font-weight: 300; font-size: 19px; letter-spacing: 0.05em;
+      color: var(--text); text-transform: uppercase;
     }
     .logo-call {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-weight: 800;
-      font-size: 19px;
-      letter-spacing: -0.02em;
-      color: var(--text);
-      text-transform: uppercase;
+      font-weight: 800; font-size: 19px; letter-spacing: -0.02em;
+      color: var(--text); text-transform: uppercase;
     }
-    .logo-dot {
-      width: 7px; height: 7px;
-      border-radius: 50%;
-      background: var(--green);
-      margin-left: 4px;
-      margin-bottom: 4px;
-      flex-shrink: 0;
-    }
+    .logo-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); margin-left: 4px; margin-bottom: 4px; flex-shrink: 0; }
     .tagline { font-size: 11px; color: var(--muted); margin-left: 14px; }
-
     .header-right { display: flex; align-items: center; gap: 14px; }
 
-    /* Market clocks */
     .clocks { display: flex; gap: 18px; }
     .clock { display: flex; align-items: center; gap: 6px; }
     .clock-flag { font-size: 15px; }
@@ -100,23 +83,15 @@
     .clock-status.open   { color: var(--green); }
     .clock-status.closed { color: var(--muted); }
 
-    /* Refresh button */
     .btn-refresh {
-      font-family: var(--font);
-      font-size: 12px;
-      font-weight: 500;
-      color: var(--surface);
-      background: var(--text);
-      border: none;
-      border-radius: 5px;
-      padding: 7px 15px;
-      cursor: pointer;
-      transition: opacity 0.15s;
+      font-family: var(--font); font-size: 12px; font-weight: 500;
+      color: var(--surface); background: var(--text);
+      border: none; border-radius: 5px; padding: 7px 15px;
+      cursor: pointer; transition: opacity 0.15s;
     }
     .btn-refresh:hover   { opacity: 0.8; }
     .btn-refresh:disabled { opacity: 0.35; cursor: not-allowed; }
 
-    /* Generating pill */
     .gen-pill {
       font-size: 10px; font-weight: 700; letter-spacing: 0.7px; text-transform: uppercase;
       color: var(--yellow-text); background: var(--yellow-dim);
@@ -125,7 +100,6 @@
     }
     @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.45} }
 
-    /* ── Report meta bar ─────────────────── */
     .meta-bar {
       background: var(--surface);
       border-bottom: 1px solid var(--border);
@@ -135,11 +109,34 @@
     }
     .meta-date { font-weight: 600; color: var(--secondary); font-size: 12px; }
 
-    /* ── Main ────────────────────────────── */
-    .main { max-width: 1480px; margin: 0 auto; padding: 24px 28px; }
+    .main { max-width: 1600px; margin: 0 auto; padding: 18px 24px; }
 
-    /* ── Tabs ────────────────────────────── */
-    .tabs { display: flex; border-bottom: 1px solid var(--border); margin-bottom: 18px; }
+    /* ── Regime banner ────────────────────────── */
+    .regime {
+      display: flex; align-items: center; gap: 14px;
+      padding: 10px 14px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+      font-size: 12px;
+      border: 1px solid;
+    }
+    .regime.r-on  { background: #ecfdf5; border-color: #86efac; color: var(--green-text); }
+    .regime.r-off { background: #fef2f2; border-color: #fca5a5; color: var(--red-text); }
+    .regime.r-neu { background: var(--surface2); border-color: var(--border2); color: var(--secondary); }
+    .regime-label {
+      font-size: 10px; font-weight: 800; letter-spacing: 0.8px; text-transform: uppercase;
+      padding: 3px 9px; border-radius: 4px;
+    }
+    .r-on  .regime-label { background: var(--green); color: #fff; }
+    .r-off .regime-label { background: var(--red); color: #fff; }
+    .r-neu .regime-label { background: var(--muted); color: #fff; }
+    .regime-detail { color: inherit; opacity: 0.85; font-size: 11px; }
+    .regime-stats { margin-left: auto; display: flex; gap: 18px; font-size: 11px; font-variant-numeric: tabular-nums; }
+    .regime-stat { display: flex; flex-direction: column; align-items: flex-end; }
+    .regime-stat-label { font-size: 9px; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; opacity: 0.6; }
+
+    /* ── Tabs ─────────────────────────── */
+    .tabs { display: flex; border-bottom: 1px solid var(--border); margin-bottom: 14px; }
     .tab-btn {
       font-family: var(--font); font-size: 13px; font-weight: 500;
       color: var(--muted); background: none; border: none;
@@ -152,13 +149,13 @@
     .tab-panel { display: none; }
     .tab-panel.active { display: block; }
 
-    /* ── Controls ────────────────────────── */
+    /* ── Controls ─────────────────────── */
     .controls {
       display: flex; align-items: center; justify-content: space-between;
       flex-wrap: wrap; gap: 10px;
       padding: 10px 14px;
       background: var(--surface); border: 1px solid var(--border); border-radius: 6px;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
     }
     .controls-left  { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
     .controls-right { display: flex; align-items: center; gap: 8px; }
@@ -166,8 +163,6 @@
       font-size: 10px; font-weight: 700; letter-spacing: 0.7px;
       text-transform: uppercase; color: var(--muted); margin-right: 2px;
     }
-
-    /* Chips */
     .chip {
       font-family: var(--font); font-size: 11px; font-weight: 500;
       color: var(--secondary); background: var(--bg);
@@ -179,8 +174,7 @@
     .chip.active.c-green       { background: var(--green); border-color: var(--green); }
     .chip.active.c-red         { background: var(--red); border-color: var(--red); }
     .chip.active.c-yellow      { background: var(--yellow); border-color: var(--yellow); }
-
-    /* Sort */
+    .chip.active.c-purple      { background: var(--purple); border-color: var(--purple); }
     .sort-sel {
       font-family: var(--font); font-size: 11px; color: var(--secondary);
       background: var(--surface); border: 1px solid var(--border2); border-radius: 4px;
@@ -191,28 +185,29 @@
     .sort-sel:focus { border-color: var(--text); }
     .res-count { font-size: 11px; color: var(--muted); }
 
-    /* ── Table ───────────────────────────── */
-    .tbl-wrap { overflow-x: auto; }
-    .stock-table { width: 100%; border-collapse: collapse; }
+    /* ── Table ─────────────────── */
+    .tbl-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; }
+    .stock-table { width: 100%; border-collapse: collapse; min-width: 1380px; }
 
     .stock-table thead th {
       font-size: 10px; font-weight: 700; letter-spacing: 0.7px; text-transform: uppercase;
       color: var(--muted); background: var(--surface2);
-      padding: 7px 10px; text-align: left;
+      padding: 7px 9px; text-align: left;
       border-bottom: 2px solid var(--border2);
       cursor: pointer; user-select: none; white-space: nowrap;
       transition: color 0.12s;
     }
     .stock-table thead th:hover { color: var(--text); }
     .stock-table thead th.th-r { text-align: right; }
+    .stock-table thead th.th-c { text-align: center; }
 
     .stock-table tbody tr { border-bottom: 1px solid var(--border); transition: background 0.1s; }
     .stock-table tbody tr:hover { background: var(--surface2); }
     .stock-table tbody tr:last-child { border-bottom: none; }
-    .stock-table tbody td { padding: 11px 10px; vertical-align: middle; }
+    .stock-table tbody td { padding: 10px 9px; vertical-align: middle; }
     .stock-table tbody td.td-r { text-align: right; font-variant-numeric: tabular-nums; }
+    .stock-table tbody td.td-c { text-align: center; }
 
-    /* Tier separator */
     .tier-row td {
       padding: 7px 10px 3px !important;
       font-size: 10px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase;
@@ -220,13 +215,11 @@
       border-bottom: none !important;
     }
 
-    /* Confidence stripe */
     .td-stripe { width: 4px; padding: 0 !important; }
     .s-high { background: var(--green); }
     .s-med  { background: var(--yellow); }
     .s-low  { background: var(--border2); }
 
-    /* Rank badge — gold / silver / bronze */
     .rank {
       width: 24px; height: 24px; border-radius: 50%;
       background: var(--surface2); color: var(--muted);
@@ -238,80 +231,104 @@
     .rank.r2 { background: #f9fafb; border-color: #9ca3af; color: #4b5563; }
     .rank.r3 { background: #fff7ed; border-color: #c2773a; color: #7c2d12; }
 
-    /* Ticker + Company */
-    .stock-id { display: flex; flex-direction: column; gap: 2px; min-width: 160px; }
-    .stock-ticker  { font-size: 13px; font-weight: 700; color: var(--blue); letter-spacing: 0.02em; }
-    .stock-company { font-size: 12px; font-weight: 400; color: var(--secondary); max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .stock-sector  { font-size: 10px; color: var(--muted); }
+    .stock-id { display: flex; flex-direction: column; gap: 2px; min-width: 150px; }
+    .stock-ticker  { font-size: 13px; font-weight: 700; color: var(--blue); letter-spacing: 0.02em; display: flex; align-items: center; gap: 6px; }
+    .stock-company { font-size: 11.5px; font-weight: 400; color: var(--secondary); max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .stock-sector  { font-size: 9.5px; color: var(--muted); }
+    .streak-badge { font-size: 9.5px; font-weight: 700; color: var(--red); background: var(--red-dim); border: 1px solid #fca5a5; border-radius: 3px; padding: 1px 5px; }
 
-    /* Price */
+    /* Indicator icons (vol, MACD, earnings) */
+    .ind-row { display: flex; gap: 4px; margin-top: 3px; }
+    .ind {
+      font-size: 9px; font-weight: 700; letter-spacing: 0.3px;
+      padding: 1px 5px; border-radius: 3px; line-height: 1.5;
+    }
+    .ind-vol  { background: var(--green-dim);  color: var(--green-text);  border: 1px solid #86efac; }
+    .ind-macd { background: var(--purple-dim); color: var(--purple);      border: 1px solid #c4b5fd; }
+    .ind-earn { background: var(--red-dim);    color: var(--red);         border: 1px solid #fca5a5; }
+    .ind-f    { background: var(--blue-dim);   color: var(--blue-text);   border: 1px solid #93c5fd; }
+
     .price-group { display: flex; flex-direction: column; gap: 2px; align-items: flex-end; }
     .price-val   { font-size: 13px; font-weight: 600; color: var(--text); }
     .chg-up   { font-size: 11px; font-weight: 600; color: var(--green); }
     .chg-down { font-size: 11px; font-weight: 600; color: var(--red); }
     .chg-flat { font-size: 11px; font-weight: 600; color: var(--muted); }
 
-    /* RSI badge — vivid colours */
     .rsi-badge { display: inline-block; padding: 3px 9px; border-radius: 4px; font-size: 11px; font-weight: 700; }
     .rsi-over    { background: var(--red-dim);    color: var(--red);    border: 1px solid #fca5a5; }
     .rsi-sweet   { background: var(--green-dim);  color: var(--green-text); border: 1px solid #86efac; }
     .rsi-neutral { background: var(--surface2);   color: var(--muted);  border: 1px solid var(--border2); }
 
-    /* 52W bar */
     .range-wrap { display: flex; align-items: center; gap: 7px; justify-content: flex-end; }
-    .range-bar  { width: 72px; height: 4px; background: var(--border2); border-radius: 2px; flex-shrink: 0; }
+    .range-bar  { width: 64px; height: 4px; background: var(--border2); border-radius: 2px; flex-shrink: 0; }
     .range-fill { height: 100%; border-radius: 2px; background: var(--blue); }
     .range-pct  { font-size: 10px; color: var(--muted); width: 26px; text-align: right; }
 
-    /* Score */
-    .score-group { display: flex; align-items: center; gap: 6px; justify-content: flex-end; }
-    .score-bar   { width: 52px; height: 4px; background: var(--border2); border-radius: 2px; }
-    .score-fill  { height: 100%; border-radius: 2px; }
-    .score-num   { font-size: 13px; font-weight: 700; min-width: 28px; text-align: right; font-variant-numeric: tabular-nums; }
+    /* Quality column: F-score + FCF yield */
+    .qual-group { display: flex; flex-direction: column; gap: 2px; align-items: center; font-size: 10px; }
+    .fscore { font-weight: 700; font-size: 11px; padding: 2px 7px; border-radius: 4px; }
+    .fscore-high { background: var(--green-dim); color: var(--green-text); border: 1px solid #86efac; }
+    .fscore-mid  { background: var(--yellow-dim); color: var(--yellow-text); border: 1px solid #fde68a; }
+    .fscore-low  { background: var(--surface2); color: var(--muted); border: 1px solid var(--border2); }
+    .fcfy { color: var(--secondary); font-size: 10px; }
 
-    /* Signal badge — SWING BUY / WATCH */
+    /* Trade plan column */
+    .plan-group { display: flex; flex-direction: column; gap: 1px; font-size: 10.5px; font-variant-numeric: tabular-nums; min-width: 95px; }
+    .plan-row { display: flex; justify-content: space-between; gap: 6px; }
+    .plan-lbl { color: var(--muted); font-size: 9px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; }
+    .plan-val { color: var(--text); font-weight: 600; }
+    .plan-stop { color: var(--red); }
+    .plan-tgt  { color: var(--green); }
+    .plan-rr-good { color: var(--green); font-weight: 700; }
+    .plan-rr-bad  { color: var(--muted); }
+
+    .score-group { display: flex; align-items: center; gap: 6px; justify-content: flex-end; }
+    .score-bar   { width: 48px; height: 4px; background: var(--border2); border-radius: 2px; }
+    .score-fill  { height: 100%; border-radius: 2px; }
+    .score-num   { font-size: 13px; font-weight: 700; min-width: 30px; text-align: right; font-variant-numeric: tabular-nums; }
+
     .sig {
       display: inline-block; padding: 3px 9px; border-radius: 4px;
       font-size: 10px; font-weight: 700; letter-spacing: 0.5px; white-space: nowrap;
     }
     .sig-buy   { background: var(--green-dim); color: var(--green-text); border: 1px solid #86efac; }
     .sig-watch { background: var(--yellow-dim); color: var(--yellow-text); border: 1px solid #fde68a; }
+    .sig-avoid { background: var(--red-dim); color: var(--red-text); border: 1px solid #fca5a5; opacity: 0.85; }
 
-    /* Analyst note */
-    .note { font-size: 11px; color: var(--secondary); max-width: 240px; line-height: 1.5; }
+    .shares { font-size: 10px; color: var(--muted); margin-top: 2px; text-align: right; font-variant-numeric: tabular-nums; }
 
-    /* ── States ──────────────────────────── */
+    .note { font-size: 11px; color: var(--secondary); max-width: 200px; line-height: 1.45; }
+
     .state-box { padding: 56px 32px; text-align: center; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; }
     .state-box p { font-size: 12px; color: var(--muted); margin-top: 12px; }
     .spinner { width: 28px; height: 28px; border: 2px solid var(--border2); border-top-color: var(--text); border-radius: 50%; animation: spin 0.7s linear infinite; margin: 0 auto; }
     @keyframes spin { to { transform: rotate(360deg); } }
     .no-results { padding: 32px; text-align: center; font-size: 12px; color: var(--muted); }
 
-    /* ── Legend ──────────────────────────── */
     .legend { display: flex; gap: 20px; flex-wrap: wrap; padding: 14px 0 0; margin-top: 14px; border-top: 1px solid var(--border); font-size: 11px; color: var(--muted); }
     .leg-item { display: flex; align-items: center; gap: 6px; }
     .leg-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 
-    @media (max-width: 960px) {
+    @media (max-width: 1100px) {
       .header { padding: 0 16px; }
-      .main   { padding: 16px; }
+      .main   { padding: 12px; }
       .tagline { display: none; }
       .clocks  { display: none; }
       .note    { display: none; }
       .range-wrap { display: none; }
+      .regime-stats { display: none; }
     }
   </style>
 </head>
 <body>
 
-<!-- Header -->
 <header class="header">
   <div style="display:flex;align-items:center">
     <a class="logo" href="/">
       <span class="logo-trading">Trading</span><span class="logo-call">Call</span>
       <span class="logo-dot"></span>
     </a>
-    <span class="tagline">Daily swing-trade signals · Mid-Large Cap · Undervalued · Oversold</span>
+    <span class="tagline">Pro Signals · Mid-Large Cap · Value + Mean-Reversion · 1-3% Daily Target</span>
   </div>
   <div class="header-right">
     <div class="clocks" id="clocks"></div>
@@ -320,16 +337,14 @@
   </div>
 </header>
 
-<!-- Meta bar -->
 <div class="meta-bar">
   <div style="display:flex;align-items:center;gap:12px">
     <span class="meta-date" id="reportDate">Loading…</span>
-    <span>1–3% daily target · Hold if needed · Mid-Large cap only</span>
+    <span>Volume-confirmed · Earnings-safe · Sector-diversified · ATR-stop · 1.0+ R:R</span>
   </div>
   <span id="reportUpdated"></span>
 </div>
 
-<!-- Main -->
 <main class="main">
 
   <div class="tabs">
@@ -338,43 +353,48 @@
     <button class="tab-btn" onclick="switchTab('SG')">🇸🇬 Singapore</button>
   </div>
 
-  <!-- Controls -->
+  <!-- Regime banner (per tab) -->
+  <div id="regimeBanner"></div>
+
   <div class="controls">
     <div class="controls-left">
       <span class="ctrl-label">Filter</span>
-      <span class="chip active"          onclick="setFilter('all',this)">All picks</span>
-      <span class="chip" onclick="setFilter('high',this)">🟢 High confidence</span>
+      <span class="chip active" onclick="setFilter('all',this)">All picks</span>
+      <span class="chip" onclick="setFilter('buy',this)">🟢 Swing Buy only</span>
+      <span class="chip" onclick="setFilter('high',this)">High confidence</span>
       <span class="chip" onclick="setFilter('rsi40',this)">RSI &lt; 40</span>
-      <span class="chip" onclick="setFilter('low52',this)">Near 52W low</span>
-      <span class="chip" onclick="setFilter('value',this)">Deep value P/E &lt; 15</span>
+      <span class="chip" onclick="setFilter('volconf',this)">Vol confirmed</span>
+      <span class="chip" onclick="setFilter('streak',this)">🔥 Multi-day streak</span>
+      <span class="chip" onclick="setFilter('quality',this)">F-Score ≥ 7</span>
+      <span class="chip" onclick="setFilter('value',this)">P/E &lt; 15</span>
     </div>
     <div class="controls-right">
       <span class="ctrl-label">Sort by</span>
       <select class="sort-sel" id="sortSelect" onchange="applySort(this.value)">
         <option value="score">Score (default)</option>
+        <option value="rr_desc">R:R ↓ best</option>
         <option value="rsi_asc">RSI ↑ most oversold</option>
         <option value="pos52_asc">52W position ↑ near low</option>
+        <option value="fscore_desc">F-Score ↓ highest quality</option>
+        <option value="fcfy_desc">FCF yield ↓ cheapest</option>
         <option value="atr_desc">ATR% ↓ highest swing</option>
         <option value="pe_asc">P/E ↑ cheapest</option>
-        <option value="pb_asc">P/B ↑ cheapest</option>
         <option value="chg_asc">Day change ↑ most sold off</option>
       </select>
       <span class="res-count" id="resCount"></span>
     </div>
   </div>
 
-  <!-- Tab panels -->
   <div id="tab-US" class="tab-panel active"><div class="state-box"><div class="spinner"></div><p>Loading US picks…</p></div></div>
   <div id="tab-HK" class="tab-panel"><div class="state-box"><div class="spinner"></div><p>Loading HK picks…</p></div></div>
   <div id="tab-SG" class="tab-panel"><div class="state-box"><div class="spinner"></div><p>Loading SG picks…</p></div></div>
 
-  <!-- Legend -->
   <div class="legend">
-    <div class="leg-item"><div class="leg-dot" style="background:var(--green)"></div> RSI 28–48 → oversold sweet spot</div>
-    <div class="leg-item"><div class="leg-dot" style="background:var(--red)"></div> RSI &lt; 35 → deeply oversold</div>
-    <div class="leg-item"><div class="leg-dot" style="background:var(--blue)"></div> 52W bar → position in yearly range (left = near low)</div>
-    <div class="leg-item"><div class="leg-dot" style="background:var(--yellow)"></div> Score → composite rank (RSI + value + momentum)</div>
-    <div class="leg-item" style="font-style:italic">Yahoo Finance · 15-min delay · Not financial advice</div>
+    <div class="leg-item"><div class="leg-dot" style="background:var(--green)"></div>SWING BUY · score ≥ 55 + R:R ≥ 1.0 + no earnings nearby</div>
+    <div class="leg-item"><div class="leg-dot" style="background:var(--yellow)"></div>WATCH · oversold but waiting for trigger</div>
+    <div class="leg-item"><div class="leg-dot" style="background:var(--red)"></div>AVOID · earnings ±5d or poor R:R</div>
+    <div class="leg-item">🔥 = appeared in top 10 multiple days · ⚠ = earnings within 5 days · 📈 = MACD turning up · 📊 = volume confirmed</div>
+    <div class="leg-item" style="font-style:italic">Yahoo Finance · 15-min delay · Not financial advice · Position size assumes $100k portfolio, 1% risk per trade</div>
   </div>
 
 </main>
@@ -382,11 +402,11 @@
 <script>
 // ── State ──────────────────────────────────────
 let reportData = {};
+let regimeData = {};
 let currentTab = 'US';
 let currentFilter = 'all';
 let currentSort = 'score';
 
-// ── Clocks ─────────────────────────────────────
 const MKTS = [
   {id:'US',flag:'🇺🇸',label:'NYSE', tz:'America/New_York',o:[9,30], c:[16,0]},
   {id:'HK',flag:'🇭🇰',label:'HKEX', tz:'Asia/Hong_Kong', o:[9,30], c:[16,0]},
@@ -408,50 +428,55 @@ function renderClocks() {
 renderClocks();
 setInterval(renderClocks,30000);
 
-// ── Tabs ───────────────────────────────────────
 function switchTab(id) {
   currentTab=id;
   document.querySelectorAll('.tab-btn').forEach((b,i)=>b.classList.toggle('active',['US','HK','SG'][i]===id));
   document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
   document.getElementById('tab-'+id).classList.add('active');
+  renderRegime();
   renderTab();
 }
 
-// ── Filter & Sort ──────────────────────────────
 function setFilter(f,el) {
   currentFilter=f;
-  document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active','c-green','c-red','c-yellow'));
+  document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active','c-green','c-red','c-yellow','c-purple'));
   el.classList.add('active');
-  if(f==='high')  el.classList.add('c-green');
+  if(f==='buy'||f==='high')  el.classList.add('c-green');
   if(f==='rsi40') el.classList.add('c-red');
-  if(f==='value') el.classList.add('c-yellow');
+  if(f==='value'||f==='quality') el.classList.add('c-yellow');
+  if(f==='streak'||f==='volconf') el.classList.add('c-purple');
   renderTab();
 }
 function applySort(v){currentSort=v;renderTab();}
 
 function filterPicks(picks) {
   switch(currentFilter){
-    case 'high':  return picks.filter(p=>p.score>=70);
-    case 'rsi40': return picks.filter(p=>typeof p.rsi==='number'&&p.rsi<40);
-    case 'low52': return picks.filter(p=>typeof p.pos_52w==='number'&&p.pos_52w<30);
-    case 'value': return picks.filter(p=>typeof p.pe==='number'&&p.pe>0&&p.pe<15);
-    default:      return picks;
+    case 'buy':     return picks.filter(p=>p.signal==='SWING BUY');
+    case 'high':    return picks.filter(p=>p.score>=70);
+    case 'rsi40':   return picks.filter(p=>typeof p.rsi==='number'&&p.rsi<40);
+    case 'volconf': return picks.filter(p=>p.volume_signal&&p.volume_signal.confirmed);
+    case 'streak':  return picks.filter(p=>(p.persistence_count||0)>=2);
+    case 'quality': return picks.filter(p=>typeof p.f_score==='number'&&p.f_score>=7);
+    case 'value':   return picks.filter(p=>typeof p.pe==='number'&&p.pe>0&&p.pe<15);
+    default:        return picks;
   }
 }
 function sortPicks(picks) {
   const a=[...picks];
+  const num=(v,fallback)=>typeof v==='number'?v:fallback;
   switch(currentSort){
-    case 'rsi_asc':   return a.sort((x,y)=>(x.rsi||99)-(y.rsi||99));
-    case 'pos52_asc': return a.sort((x,y)=>(x.pos_52w||99)-(y.pos_52w||99));
-    case 'atr_desc':  return a.sort((x,y)=>(y.atr_pct||0)-(x.atr_pct||0));
-    case 'pe_asc':    return a.sort((x,y)=>{const xp=typeof x.pe==='number'&&x.pe>0?x.pe:999,yp=typeof y.pe==='number'&&y.pe>0?y.pe:999;return xp-yp;});
-    case 'pb_asc':    return a.sort((x,y)=>{const xp=typeof x.pb==='number'&&x.pb>0?x.pb:999,yp=typeof y.pb==='number'&&y.pb>0?y.pb:999;return xp-yp;});
-    case 'chg_asc':   return a.sort((x,y)=>(x.day_change_pct||0)-(y.day_change_pct||0));
-    default:          return a.sort((x,y)=>(y.score||0)-(x.score||0));
+    case 'rr_desc':     return a.sort((x,y)=>(y.trade_plan?.rr||0)-(x.trade_plan?.rr||0));
+    case 'rsi_asc':     return a.sort((x,y)=>num(x.rsi,99)-num(y.rsi,99));
+    case 'pos52_asc':   return a.sort((x,y)=>num(x.pos_52w,99)-num(y.pos_52w,99));
+    case 'fscore_desc': return a.sort((x,y)=>num(y.f_score,-1)-num(x.f_score,-1));
+    case 'fcfy_desc':   return a.sort((x,y)=>num(y.fcf_yield,-99)-num(x.fcf_yield,-99));
+    case 'atr_desc':    return a.sort((x,y)=>num(y.atr_pct,0)-num(x.atr_pct,0));
+    case 'pe_asc':      return a.sort((x,y)=>{const xp=num(x.pe,999)>0?x.pe:999,yp=num(y.pe,999)>0?y.pe:999;return xp-yp;});
+    case 'chg_asc':     return a.sort((x,y)=>num(x.day_change_pct,0)-num(y.day_change_pct,0));
+    default:            return a.sort((x,y)=>(y.score||0)-(x.score||0));
   }
 }
 
-// ── Helpers ────────────────────────────────────
 function conf(s){ return s>=70?'high':s>=50?'med':'low'; }
 function scoreColor(s){ return s>=70?'var(--green)':s>=50?'var(--yellow)':'var(--muted)'; }
 function rsiCls(r){ return typeof r!=='number'?'rsi-neutral':r<=35?'rsi-over':r<=50?'rsi-sweet':'rsi-neutral'; }
@@ -462,6 +487,27 @@ function fmtChg(v){
 function fmtN(v,d=2){
   if(v==null||v==='—'||typeof v==='string') return '<span style="color:var(--muted)">—</span>';
   return v.toFixed(d);
+}
+function fscoreCls(f){ return f>=7?'fscore-high':f>=4?'fscore-mid':'fscore-low'; }
+
+// ── Regime banner ──────────────────────────────
+function renderRegime() {
+  const banner=document.getElementById('regimeBanner');
+  const r=regimeData[currentTab]||{};
+  if(!r.label){banner.innerHTML='';return;}
+  const cls=r.label==='risk_on'?'r-on':r.label==='risk_off'?'r-off':'r-neu';
+  const lbl=r.label==='risk_on'?'RISK ON':r.label==='risk_off'?'RISK OFF':'NEUTRAL';
+  const idxName={US:'SPY',HK:'HSI',SG:'STI'}[currentTab]||r.index_ticker;
+  const idxPct=(r.index_pct_vs_ma200!=null)?`${r.index_pct_vs_ma200>0?'+':''}${r.index_pct_vs_ma200}%`:'—';
+  const vix=(r.vix_level!=null)?r.vix_level.toFixed(1):'—';
+  banner.innerHTML=`<div class="regime ${cls}">
+    <span class="regime-label">${lbl}</span>
+    <span class="regime-detail">${r.note||''}</span>
+    <div class="regime-stats">
+      <div class="regime-stat"><span class="regime-stat-label">${idxName} vs 200MA</span><span>${idxPct}</span></div>
+      ${r.vix_level!=null?`<div class="regime-stat"><span class="regime-stat-label">${r.vix_ticker||'VIX'}</span><span>${vix}</span></div>`:''}
+    </div>
+  </div>`;
 }
 
 // ── Render ─────────────────────────────────────
@@ -474,13 +520,13 @@ function renderTab() {
   }
   let picks=sortPicks(filterPicks(mktData.picks));
   document.getElementById('resCount').textContent=`${picks.length} of ${mktData.picks.length}`;
-  if(!picks.length){panel.innerHTML=`<div class="no-results">No stocks match this filter — try "All picks".</div>`;return;}
+  if(!picks.length){panel.innerHTML=`<div class="no-results">No picks match this filter — try "All picks".</div>`;return;}
 
   const cur=mktData.picks[0]?.currency||'';
   const tierLabels={
-    high:'🟢 High Confidence — Strong setup, multiple signals aligned',
-    med: '🟡 Medium Confidence — Oversold with value support',
-    low: '⚪ Watch List — Monitor for better entry'
+    high:'🟢 High Confidence — Multiple signals aligned (vol + value + setup)',
+    med: '🟡 Medium Confidence — Oversold with partial confirmation',
+    low: '⚪ Watch List — Monitor for better entry trigger'
   };
   let rows='', lastConf=null;
 
@@ -491,45 +537,82 @@ function renderTab() {
 
     if(currentSort==='score'&&c!==lastConf){
       lastConf=c;
-      rows+=`<tr class="tier-row"><td colspan="13">${tierLabels[c]}</td></tr>`;
+      rows+=`<tr class="tier-row"><td colspan="11">${tierLabels[c]}</td></tr>`;
     }
 
     const rank=i+1;
     const rCls=rank===1?'r1':rank===2?'r2':rank===3?'r3':'';
     const priceStr=typeof s.price==='number'?s.price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4}):'—';
-    const isBuy=(s.score||0)>=50;
+
+    // Signal class
+    let sigCls='sig-watch', sigTxt=s.signal||'WATCH';
+    if(s.signal==='SWING BUY')  sigCls='sig-buy';
+    else if(s.signal==='AVOID') sigCls='sig-avoid';
+
+    // Indicators row
+    const inds=[];
+    if(s.volume_signal?.confirmed) inds.push(`<span class="ind ind-vol" title="Volume ${s.volume_signal.vol_ratio}x avg + OBV rising">📊 Vol</span>`);
+    if(s.macd_turning_up) inds.push(`<span class="ind ind-macd" title="MACD histogram turning up — early reversal signal">📈 MACD</span>`);
+    if(s.earnings_blackout) inds.push(`<span class="ind ind-earn" title="Earnings within ±5 days — ${s.next_earnings||''}">⚠ Earnings</span>`);
+    if(typeof s.f_score==='number'&&s.f_score>=7) inds.push(`<span class="ind ind-f" title="Piotroski F-Score ${s.f_score}/9">F${s.f_score}</span>`);
+    const indHtml=inds.length?`<div class="ind-row">${inds.join('')}</div>`:'';
+
+    // Streak badge inline with ticker
+    const streak=(s.persistence_count||0)>=2 ? `<span class="streak-badge" title="${s.persistence_count} consecutive days in top 10">🔥${s.persistence_count}d</span>` : '';
+
+    // Quality column
+    let qHtml='<span style="color:var(--muted);font-size:10px">—</span>';
+    if(typeof s.f_score==='number' || typeof s.fcf_yield==='number') {
+      qHtml=`<div class="qual-group">
+        ${typeof s.f_score==='number'?`<span class="fscore ${fscoreCls(s.f_score)}">F ${s.f_score}/9</span>`:''}
+        ${typeof s.fcf_yield==='number'?`<span class="fcfy">FCF ${s.fcf_yield.toFixed(1)}%</span>`:''}
+      </div>`;
+    }
+
+    // Trade plan column
+    const tp=s.trade_plan||{};
+    let planHtml='<span style="color:var(--muted);font-size:10px">—</span>';
+    if(tp.entry) {
+      const rrCls=tp.rr>=1.3?'plan-rr-good':'plan-rr-bad';
+      planHtml=`<div class="plan-group">
+        <div class="plan-row"><span class="plan-lbl">Entry</span><span class="plan-val">${cur} ${tp.entry.toFixed(2)}</span></div>
+        <div class="plan-row"><span class="plan-lbl">Stop</span><span class="plan-val plan-stop">${cur} ${tp.stop.toFixed(2)} (-${tp.stop_pct}%)</span></div>
+        <div class="plan-row"><span class="plan-lbl">Target</span><span class="plan-val plan-tgt">${cur} ${tp.target.toFixed(2)} (+${tp.target_pct}%)</span></div>
+        <div class="plan-row"><span class="plan-lbl">R:R</span><span class="${rrCls}">${tp.rr.toFixed(2)}</span></div>
+        ${tp.suggested_shares?`<div class="shares" title="1% portfolio risk on $100k">size: ${tp.suggested_shares} sh</div>`:''}
+      </div>`;
+    }
 
     rows+=`<tr>
       <td class="td-stripe s-${c}"></td>
       <td class="td-r"><span class="rank ${rCls}">${rank}</span></td>
       <td>
         <div class="stock-id">
-          <span class="stock-ticker">${s.ticker}</span>
+          <span class="stock-ticker">${s.ticker} ${streak}</span>
           <span class="stock-company" title="${s.name||''}">${s.name||s.ticker}</span>
           ${s.sector?`<span class="stock-sector">${s.sector}</span>`:''}
+          ${indHtml}
         </div>
       </td>
       <td class="td-r">
         <div class="price-group">
           <span class="price-val">${cur} ${priceStr}</span>
           ${fmtChg(s.day_change_pct)}
+          <span style="font-size:10px;color:var(--muted)">${s.market_cap||'—'}</span>
         </div>
       </td>
-      <td class="td-r" style="font-size:11px;color:var(--secondary)">${s.market_cap||'—'}</td>
       <td class="td-r"><span class="rsi-badge ${rsiCls(s.rsi)}">${typeof s.rsi==='number'?s.rsi.toFixed(1):'—'}</span></td>
-      <td class="td-r" style="font-size:11px;color:var(--red);font-weight:600">${typeof s.atr_pct==='number'?s.atr_pct.toFixed(1)+'%':'—'}</td>
-      <td class="td-r" style="font-size:11px">${fmtN(s.pe,1)}</td>
-      <td class="td-r" style="font-size:11px">${fmtN(s.pb,2)}</td>
-      <td>
-        ${pos52!==null?`<div class="range-wrap"><div class="range-bar"><div class="range-fill" style="width:${pos52}%"></div></div><span class="range-pct">${pos52.toFixed(0)}%</span></div>`:'<span style="color:var(--muted)">—</span>'}
-      </td>
+      <td class="td-r" style="font-size:11px">${fmtN(s.pe,1)} / ${fmtN(s.pb,2)}</td>
+      <td class="td-c">${qHtml}</td>
+      <td>${pos52!==null?`<div class="range-wrap"><div class="range-bar"><div class="range-fill" style="width:${pos52}%"></div></div><span class="range-pct">${pos52.toFixed(0)}%</span></div>`:'<span style="color:var(--muted)">—</span>'}</td>
+      <td>${planHtml}</td>
       <td class="td-r">
         <div class="score-group">
           <div class="score-bar"><div class="score-fill" style="width:${Math.min(100,sc)}%;background:${scoreColor(sc)}"></div></div>
           <span class="score-num" style="color:${scoreColor(sc)}">${sc}</span>
         </div>
+        <div style="margin-top:4px;text-align:right"><span class="sig ${sigCls}">${sigTxt}</span></div>
       </td>
-      <td><span class="sig ${isBuy?'sig-buy':'sig-watch'}">${isBuy?'SWING BUY':'WATCH'}</span></td>
       <td><div class="note">${s.rationale||''}</div></td>
     </tr>`;
   });
@@ -538,16 +621,14 @@ function renderTab() {
     <thead><tr>
       <th style="width:4px;padding:0"></th>
       <th class="th-r" onclick="sortByCol('score')">#</th>
-      <th>Company</th>
-      <th class="th-r" onclick="sortByCol('chg_asc')">Price</th>
-      <th class="th-r">Mkt Cap</th>
+      <th>Ticker / Company / Signals</th>
+      <th class="th-r" onclick="sortByCol('chg_asc')">Price · Mkt Cap</th>
       <th class="th-r" onclick="sortByCol('rsi_asc')">RSI</th>
-      <th class="th-r" onclick="sortByCol('atr_desc')">ATR%</th>
-      <th class="th-r" onclick="sortByCol('pe_asc')">P/E</th>
-      <th class="th-r" onclick="sortByCol('pb_asc')">P/B</th>
+      <th class="th-r" onclick="sortByCol('pe_asc')">P/E · P/B</th>
+      <th class="th-c" onclick="sortByCol('fscore_desc')">Quality</th>
       <th class="th-r" onclick="sortByCol('pos52_asc')">52W Range</th>
-      <th class="th-r" onclick="sortByCol('score')">Score</th>
-      <th>Signal</th>
+      <th onclick="sortByCol('rr_desc')">Trade Plan</th>
+      <th class="th-r" onclick="sortByCol('score')">Score / Signal</th>
       <th>Analyst Note</th>
     </tr></thead>
     <tbody>${rows}</tbody>
@@ -556,7 +637,6 @@ function renderTab() {
 
 function sortByCol(k){document.getElementById('sortSelect').value=k;currentSort=k;renderTab();}
 
-// ── Load / Refresh ──────────────────────────────
 async function loadReport() {
   try {
     const res=await fetch('/api/report');
@@ -573,6 +653,9 @@ async function loadReport() {
     document.getElementById('reportUpdated').textContent=`Updated ${new Date(r.generated_at).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})}`;
     document.getElementById('genPill').style.display=data.generating?'inline':'none';
     reportData=r.markets;
+    regimeData={};
+    Object.entries(r.markets||{}).forEach(([k,v])=>regimeData[k]=v.regime||{});
+    renderRegime();
     renderTab();
   } catch(e){console.error(e);}
 }

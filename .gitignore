@@ -7,5 +7,6 @@ venv/
 data/*.json
 *.json
 !data/fundamentals_cache.json
+!data/quality_cache.json
 !render.yaml
 .DS_Store
